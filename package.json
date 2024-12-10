@@ -1,12 +1,13 @@
 {
-  "name": "mycv",
+  "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "publish": "ng build --base-href \"https://roohollah419.github.io/Roohollah-Khodabakhshi/\" && npx angular-cli-ghpages --dir=dist/browser"
   },
   "private": true,
   "dependencies": {

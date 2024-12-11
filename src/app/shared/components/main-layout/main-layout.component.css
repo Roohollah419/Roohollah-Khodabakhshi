@@ -8,11 +8,19 @@ video {
 }
 
 .overlay-glass {
-  background-color: rgba(79, 220, 220, 0.8);
+  background-color: rgba(79, 168, 220, 0.8);
   width: 100%;
   height: 100%;
   position: fixed;
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }

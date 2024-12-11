@@ -24,3 +24,7 @@ video {
 .nav-link {
   color: white;
 }
+
+.navbar {
+  margin-bottom: 24px;
+}

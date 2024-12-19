@@ -3,3 +3,36 @@ body{
     background-color: transparent;
     color: white;
 }
+
+.fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; padding-top: 20%; }
+    100% { opacity: 1; padding-top: 0; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; padding-top: 20%; }
+    100% { opacity: 1; padding-top: 0; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; padding-top: 20%; }
+    100% { opacity: 1; padding-top: 0; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; padding-top: 20%; }
+    100% { opacity: 1; padding-top: 0; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; padding-top: 20%; }
+    100% { opacity: 1; padding-top: 0; }
+  }

@@ -37,6 +37,7 @@ video {
   bottom: -8px;
   align-items: center;
   width: 100%;
+  left: 0;
 }
 .footer .btn {
   margin: 5px;

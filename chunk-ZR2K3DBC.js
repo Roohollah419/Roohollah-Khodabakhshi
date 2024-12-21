@@ -1,0 +1,1 @@
+import{R as o,pa as n,qa as r,ua as a,va as s}from"./chunk-FGIEE3XA.js";var c=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=o({type:e,selectors:[["app-works"]],standalone:!0,features:[s],decls:2,vars:0,template:function(t,p){t&1&&(n(0,"p"),a(1,"works works!"),r())}})}}return e})();export{c as default};

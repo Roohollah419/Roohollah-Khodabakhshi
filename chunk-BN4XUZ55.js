@@ -1,0 +1,1 @@
+import{R as n,ma as o,na as i,sa as r,ta as s}from"./chunk-L63GAAXN.js";var m=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-services"]],standalone:!0,features:[s],decls:2,vars:0,template:function(t,c){t&1&&(o(0,"p"),r(1,"services works!"),i())}})}}return e})();export{m as default};

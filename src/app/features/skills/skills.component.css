@@ -1,0 +1,12 @@
+.skill-title{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.skill-progress{
+    background-color: transparent;
+    color: white;
+    border: none;
+    min-width:100px;
+}

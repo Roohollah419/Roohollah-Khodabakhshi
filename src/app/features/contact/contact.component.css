@@ -1,0 +1,31 @@
+i{
+    margin-right: 15px;
+}
+
+.contact-field{
+    background-color: rgba(255,255,255,0.4);
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    input, textarea{
+        background-color:transparent;
+        color: rgba(0,0,0,0.4);
+        width: 90%;
+        border: none;
+    }
+
+    textarea{
+        min-height:250px ;
+    }
+}
+
+button{
+    width: 100%;
+    margin-bottom: 100px;
+}

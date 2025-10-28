@@ -1,18 +1,19 @@
-.card{
-    background-color: rgba(255, 255, 255, 0.411);
-    color: white;
-    margin: 5px;
-    border-radius: 10px;
-    min-height:355px ;
+.card {
+  background-color: rgba(255, 255, 255, 0.411);
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+  min-height: 355px;
 }
-.service-icon{
-    font-size: 120px;
+.service-icon {
+  font-size: 120px;
 }
-.service-title{
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 8px;
+.service-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
-.service-description{
-    text-justify: inter-word;
+.service-description {
+  text-align: justify;
+  padding: 1px 8px;
 }

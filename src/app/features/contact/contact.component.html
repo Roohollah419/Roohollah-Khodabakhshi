@@ -1,1 +1,52 @@
-<p>contact works!</p>
+<div class="fade-in">
+    <h2 class="text-center">GET IN TOUCH!</h2>
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <h5 class="text-center">contacts</h5>
+            <div class="contact-field">
+                <span>
+                    <i class="bi bi-pin-map-fill"></i>
+                    <a
+                        href="https://www.google.de/maps/place/%C4%B0stanbul,+T%C3%BCrkiye/@41.004852,28.682533,10z/data=!3m1!4b1!4m6!3m5!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589!16zL20vMDk5NDlt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">Istanbul</a>
+                </span>
+            </div>
+            <div class="contact-field">
+                <span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:roohollah419@gmail.com">{{'Roohollah419@gmail.com'}}</a>
+                </span>
+            </div>
+            <div class="contact-field">
+                <span>
+                    <i class="bi bi-phone-fill"></i>
+                    <a href="callto:00989138970651">+989138970651</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="text-center">send a message</h5>
+            <form class="form" [formGroup]="contact">
+                <div class="contact-field">
+                    <span>
+                        <i class="bi bi-person-badge-fill"></i>
+                        <input type="text" placeholder="Name" [formControl]="contact.controls.fullName">
+                    </span>
+                </div>
+                <div class="contact-field">
+                    <span>
+                        <i class="bi bi-at"></i>
+                        <input type="email" placeholder="Email" [formControl]="contact.controls.email">
+                    </span>
+                </div>
+                <div class="contact-field">
+                    <span>
+                        <i class="bi bi-chat-dots-fill"></i>
+                        <textarea placeholder="message" [formControl]="contact.controls.message"></textarea>
+                    </span>
+                </div>
+                <button type="button" (click)="submitForm()" class="btn btn-success"
+                    [disabled]="!contact.valid">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</div>

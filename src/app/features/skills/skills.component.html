@@ -1,118 +1,96 @@
-<h2 class="fade-in text-center">WHAT I'M GOOD AT?</h2>
-<div class="table-responsive">
-    <table class="table text-center">
-        <tbody style="background-color: transparent;">
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            100%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    ASP.NET, ASP.NET Core
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%;"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    Angular 2+
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%;"
-                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    React js
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%;"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    Azure DevOps
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%;"
-                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    Node js
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            100%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    SQL server
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%;"
-                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    Typescript
-                </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            100%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    Javascript, JQuery </td>
-            </tr>
-            <tr>
-                <td class="skill-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            100%
-                        </div>
-                    </div>
-                </td>
-                <td class="skill-title">
-                    HTML5, CSS3, SCSS
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<section class="skills-section fade-in" aria-labelledby="skills-heading">
+  <!-- Header -->
+  <header class="skills-header">
+    <h2 id="skills-heading" class="text-center">{{ content.heading }}</h2>
+    <p *ngIf="content.subheading" class="text-center skills-subheading">
+      {{ content.subheading }}
+    </p>
+  </header>
+
+  <!-- Skills Grid by Category -->
+  <div class="skills-container">
+    <article
+      *ngFor="let group of skillGroups; trackBy: trackByCategory"
+      class="skill-category-section"
+      [attr.aria-labelledby]="'category-' + group.category">
+
+      <!-- Category Header -->
+      <header class="category-header" [id]="'category-' + group.category">
+        <i [class]="'bi ' + group.categoryIcon + ' category-icon'"
+           [ngClass]="group.categoryColor"
+           aria-hidden="true"></i>
+        <h3 class="category-title">{{ group.category }}</h3>
+      </header>
+
+      <!-- Skills Grid -->
+      <div class="row g-3 g-md-4 skills-grid">
+        <div
+          *ngFor="let skill of group.skills; trackBy: trackBySkill"
+          class="col-6 col-md-4 col-lg-3 skill-card-wrapper">
+
+          <div class="card skill-card"
+               [attr.aria-label]="skill.ariaLabel || skill.name + ' proficiency ' + skill.proficiency + '%'">
+
+            <!-- Skill Icon -->
+            <div class="skill-icon-wrapper">
+              <i [class]="'bi ' + skill.icon + ' skill-icon'"
+                 [ngClass]="group.categoryColor"
+                 aria-hidden="true"></i>
+            </div>
+
+            <!-- Skill Name -->
+            <h4 class="skill-name">{{ skill.name }}</h4>
+
+            <!-- Circular Progress -->
+            <div class="circular-progress-wrapper">
+              <svg class="circular-progress"
+                   width="120"
+                   height="120"
+                   viewBox="0 0 120 120"
+                   [attr.aria-label]="'Proficiency: ' + skill.proficiency + '%'">
+
+                <!-- Background Circle -->
+                <circle class="progress-bg"
+                        cx="60"
+                        cy="60"
+                        r="50"
+                        fill="none"
+                        stroke="rgba(255,255,255,0.1)"
+                        stroke-width="8"></circle>
+
+                <!-- Progress Circle -->
+                <circle class="progress-bar"
+                        [ngClass]="group.categoryColor + '-stroke'"
+                        cx="60"
+                        cy="60"
+                        r="50"
+                        fill="none"
+                        stroke-width="8"
+                        [attr.stroke-dasharray]="calculateCircumference()"
+                        [attr.stroke-dashoffset]="calculateOffset(skill.proficiency)"
+                        stroke-linecap="round"></circle>
+
+                <!-- Percentage Text -->
+                <text x="60"
+                      y="60"
+                      text-anchor="middle"
+                      dy=".3em"
+                      class="progress-text"
+                      [ngClass]="group.categoryColor">
+                  {{ skill.proficiency }}%
+                </text>
+              </svg>
+            </div>
+
+            <!-- Proficiency Level Label -->
+            <div class="proficiency-label">
+              <span class="badge" [ngClass]="getProficiencyBadgeClass(skill.proficiency)">
+                {{ getProficiencyLevel(skill.proficiency) }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>

@@ -1,1 +1,0 @@
-import{Ua as o,Va as i,aa as n,fb as a,jb as s}from"./chunk-2FSUST6J.js";var p=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-testimonials"]],standalone:!0,features:[s],decls:2,vars:0,template:function(t,r){t&1&&(o(0,"p"),a(1,"testimonials works!"),i())}})}}return e})();export{p as default};

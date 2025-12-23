@@ -85,8 +85,19 @@
 }
 
 .about-me-heading {
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  color: #a78bfa;
 }
 
 /* Content column spacing */
@@ -102,6 +113,14 @@
 
 /* Tablets and small desktops */
 @media (max-width: 991px) {
+  .about-me-heading {
+    font-size: 2.25rem;
+  }
+
+  .header-icon {
+    font-size: 2.25rem;
+  }
+
   .carousel-item-content {
     padding: 1.5rem 0.75rem;
   }
@@ -121,6 +140,16 @@
 
 /* Mobile devices */
 @media (max-width: 767px) {
+  .about-me-heading {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 2rem;
+  }
+
   .about-me-section {
     padding: 0;
   }
@@ -190,6 +219,21 @@
   }
 
   .about-me-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-icon {
+    font-size: 1.75rem;
+  }
+}
+
+/* Extra Small Mobile (<400px) */
+@media (max-width: 399px) {
+  .about-me-heading {
+    font-size: 1.5rem;
+  }
+
+  .header-icon {
     font-size: 1.5rem;
   }
 }

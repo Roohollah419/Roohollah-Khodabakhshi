@@ -24,6 +24,22 @@
   margin-top: 0.5rem;
 }
 
+.skills-main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  color: #a78bfa;
+}
+
 /* ========================================
    Category Section
 ======================================== */
@@ -259,6 +275,14 @@
 
 /* Tablets and Small Desktops (768px - 991px) */
 @media (max-width: 991px) {
+  .skills-main-heading {
+    font-size: 2.25rem;
+  }
+
+  .header-icon {
+    font-size: 2.25rem;
+  }
+
   .category-header {
     margin-bottom: 1.5rem;
   }
@@ -292,6 +316,16 @@
 
 /* Mobile Devices (576px - 767px) */
 @media (max-width: 767px) {
+  .skills-main-heading {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 2rem;
+  }
+
   .skills-section {
     padding: 1rem 0;
   }
@@ -340,6 +374,14 @@
 
 /* Small Mobile Devices (<576px) */
 @media (max-width: 575px) {
+  .skills-main-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-icon {
+    font-size: 1.75rem;
+  }
+
   .skills-container {
     padding: 0 0.5rem;
   }
@@ -365,6 +407,17 @@
   .badge {
     font-size: 0.7rem;
     padding: 0.3rem 0.6rem;
+  }
+}
+
+/* Extra Small Mobile (<400px) */
+@media (max-width: 399px) {
+  .skills-main-heading {
+    font-size: 1.5rem;
+  }
+
+  .header-icon {
+    font-size: 1.5rem;
   }
 }
 

@@ -1,7 +1,10 @@
 <section class="skills-section fade-in" aria-labelledby="skills-heading">
   <!-- Header -->
   <header class="skills-header">
-    <h2 id="skills-heading" class="text-center">{{ content.heading }}</h2>
+    <h2 id="skills-heading" class="text-center skills-main-heading">
+      <i class="bi bi-tools header-icon" aria-hidden="true"></i>
+      {{ content.heading }}
+    </h2>
     <p *ngIf="content.subheading" class="text-center skills-subheading">
       {{ content.subheading }}
     </p>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AboutMeContent, StatisticItem, StatisticSlide } from '../../core/models/about-me.models';
+import { AboutMeContent, StatisticSlide } from '../../core/models/about-me.models';
+import { AboutMeService } from '../../core/services/about-me.service';
 
 @Component({
   selector: 'app-about-me',
@@ -11,51 +12,17 @@ import { AboutMeContent, StatisticItem, StatisticSlide } from '../../core/models
 })
 export default class AboutMeComponent {
   // Content data
-  content: AboutMeContent = {
-    heading: 'WHO AM I?',
-    introduction: `I'm a dedicated Full-Stack Developer with expertise in .NET and Angular, skilled in designing and developing applications using Agile Scrum methodology. I excel in creating responsive web designs and user interfaces, leveraging technologies like ASP.NET Core, Node.js, and Docker. My strong communication and interpersonal skills, combined with a passion for teamwork and continuous learning, enable me to thrive in dynamic, innovative environments.`,
-    imageUrl: 'assets/image/myImage.jpg',
-    imageAlt: 'Roohollah Khodabakhshi - Full-Stack Developer'
-  };
+  content: AboutMeContent;
 
   // Statistics carousel configuration
-  carouselId = 'aboutMeCarousel'; // Unique, semantic ID
+  carouselId: string;
 
   // Statistics data - organized by slides
-  statisticSlides: StatisticSlide[] = [
-    {
-      id: 0,
-      items: [
-        {
-          icon: 'bi-microsoft-teams',
-          value: 6,
-          label: 'Team Members',
-          ariaLabel: 'Worked with 6 team members'
-        },
-        {
-          icon: 'bi-award-fill',
-          value: 4,
-          label: 'Certificates',
-          ariaLabel: 'Earned 4 professional certificates'
-        }
-      ]
-    },
-    {
-      id: 1,
-      items: [
-        {
-          icon: 'bi-laptop-fill',
-          value: 10,
-          label: 'Working Years',
-          ariaLabel: '10 years of professional experience'
-        },
-        {
-          icon: 'bi-trophy-fill',
-          value: 22,
-          label: 'Projects',
-          ariaLabel: 'Completed 22 projects'
-        }
-      ]
-    }
-  ];
+  statisticSlides: StatisticSlide[];
+
+  constructor(private aboutMeService: AboutMeService) {
+    this.content = this.aboutMeService.fetchAboutMeContent();
+    this.carouselId = this.aboutMeService.getCarouselId();
+    this.statisticSlides = this.aboutMeService.fetchStatisticsData();
+  }
 }

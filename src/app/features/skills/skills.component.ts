@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Skill, SkillCategory, SkillGroup, SkillsContent } from '../../core/models/skills.models';
+import { SkillsService } from '../../core/services/skills.service';
 
 @Component({
   selector: 'app-skills',
@@ -12,125 +13,15 @@ import { Skill, SkillCategory, SkillGroup, SkillsContent } from '../../core/mode
 export default class SkillsComponent {
 
   // Content data
-  content: SkillsContent = {
-    heading: "WHAT I'M GOOD AT?",
-    subheading: 'Technical skills and proficiency levels across various technologies'
-  };
-
-  // All skills data
-  private skills: Skill[] = [
-    // Backend
-    {
-      id: 'aspnet-core',
-      name: 'ASP.NET Core',
-      proficiency: 100,
-      icon: 'bi-code-slash',
-      category: SkillCategory.BACKEND,
-      ariaLabel: 'ASP.NET Core - Expert level with 100% proficiency'
-    },
-    {
-      id: 'nodejs',
-      name: 'Node.js',
-      proficiency: 95,
-      icon: 'bi-terminal',
-      category: SkillCategory.BACKEND,
-      ariaLabel: 'Node.js - Expert level with 95% proficiency'
-    },
-    // Frontend
-    {
-      id: 'angular',
-      name: 'Angular 2+',
-      proficiency: 75,
-      icon: 'bi-triangle-fill',
-      category: SkillCategory.FRONTEND,
-      ariaLabel: 'Angular 2+ - Advanced level with 75% proficiency'
-    },
-    {
-      id: 'react',
-      name: 'React.js',
-      proficiency: 50,
-      icon: 'bi-circle',
-      category: SkillCategory.FRONTEND,
-      ariaLabel: 'React.js - Intermediate level with 50% proficiency'
-    },
-    {
-      id: 'html-css',
-      name: 'HTML5, CSS3, SCSS',
-      proficiency: 100,
-      icon: 'bi-file-code-fill',
-      category: SkillCategory.FRONTEND,
-      ariaLabel: 'HTML5, CSS3, SCSS - Expert level with 100% proficiency'
-    },
-    // Database
-    {
-      id: 'sql-server',
-      name: 'SQL Server',
-      proficiency: 100,
-      icon: 'bi-database-fill',
-      category: SkillCategory.DATABASE,
-      ariaLabel: 'SQL Server - Expert level with 100% proficiency'
-    },
-    // Languages
-    {
-      id: 'typescript',
-      name: 'TypeScript',
-      proficiency: 80,
-      icon: 'bi-code-square',
-      category: SkillCategory.LANGUAGES,
-      ariaLabel: 'TypeScript - Advanced level with 80% proficiency'
-    },
-    {
-      id: 'javascript',
-      name: 'JavaScript, jQuery',
-      proficiency: 100,
-      icon: 'bi-filetype-js',
-      category: SkillCategory.LANGUAGES,
-      ariaLabel: 'JavaScript and jQuery - Expert level with 100% proficiency'
-    },
-    // DevOps
-    {
-      id: 'azure-devops',
-      name: 'Azure DevOps',
-      proficiency: 75,
-      icon: 'bi-infinity',
-      category: SkillCategory.DEVOPS,
-      ariaLabel: 'Azure DevOps - Advanced level with 75% proficiency'
-    }
-  ];
+  content: SkillsContent;
 
   // Grouped skills by category
-  skillGroups: SkillGroup[] = [
-    {
-      category: SkillCategory.BACKEND,
-      categoryIcon: 'bi-server',
-      categoryColor: 'color-backend',
-      skills: this.skills.filter(s => s.category === SkillCategory.BACKEND)
-    },
-    {
-      category: SkillCategory.FRONTEND,
-      categoryIcon: 'bi-window-desktop',
-      categoryColor: 'color-frontend',
-      skills: this.skills.filter(s => s.category === SkillCategory.FRONTEND)
-    },
-    {
-      category: SkillCategory.DATABASE,
-      categoryIcon: 'bi-database',
-      categoryColor: 'color-database',
-      skills: this.skills.filter(s => s.category === SkillCategory.DATABASE)
-    },
-    {
-      category: SkillCategory.LANGUAGES,
-      categoryIcon: 'bi-code-slash',
-      categoryColor: 'color-languages',
-      skills: this.skills.filter(s => s.category === SkillCategory.LANGUAGES)
-    },
-    {
-      category: SkillCategory.DEVOPS,
-      categoryIcon: 'bi-infinity',
-      categoryColor: 'color-devops',
-      skills: this.skills.filter(s => s.category === SkillCategory.DEVOPS)
-    }
-  ];
+  skillGroups: SkillGroup[];
+
+  constructor(private skillsService: SkillsService) {
+    this.content = this.skillsService.fetchSkillsContent();
+    this.skillGroups = this.skillsService.fetchSkillGroups();
+  }
 
   // Circular progress calculations
   calculateCircumference(): number {

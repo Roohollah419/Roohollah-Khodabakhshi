@@ -1,59 +1,182 @@
-<div class="fade-in">
-    <h2 class="text-center">GET IN TOUCH!</h2>
-    <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <h5 class="text-center">contacts</h5>
-            <div class="contact-field">
-                <span>
-                    <i class="bi bi-pin-map-fill"></i>
-                    <a
-                        href="https://www.google.de/maps/place/%C4%B0stanbul,+T%C3%BCrkiye/@41.004852,28.682533,10z/data=!3m1!4b1!4m6!3m5!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589!16zL20vMDk5NDlt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">Istanbul</a>
-                </span>
+<section class="contact-section fade-in" aria-labelledby="contact-heading">
+  <!-- Header -->
+  <header class="contact-header">
+    <h2 id="contact-heading" class="text-center">Get In Touch</h2>
+    <p class="contact-subheading text-center">Feel free to reach out for collaborations or just a friendly chat</p>
+  </header>
+
+  <!-- Contact Container -->
+  <div class="contact-container">
+    <div class="row g-4">
+
+      <!-- Contact Information Card -->
+      <div class="col-lg-5 col-md-12">
+        <article class="contact-card" aria-label="Contact Information">
+          <!-- Card Header -->
+          <div class="card-header">
+            <i class="bi bi-info-circle-fill header-icon" aria-hidden="true"></i>
+            <h3 class="header-title">Contact Information</h3>
+          </div>
+
+          <!-- Contact Items -->
+          <div class="contact-items">
+            <!-- Location -->
+            <a href="https://www.google.de/maps/place/%C4%B0stanbul,+T%C3%BCrkiye/@41.004852,28.682533,10z/data=!3m1!4b1!4m6!3m5!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589!16zL20vMDk5NDlt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+               class="contact-item"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Visit location: Istanbul, Turkey">
+              <i class="bi bi-pin-map-fill contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Location</span>
+                <span class="contact-item-value">Istanbul, Turkey</span>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:roohollah419@gmail.com"
+               class="contact-item"
+               aria-label="Send email to roohollah419@gmail.com">
+              <i class="bi bi-envelope-fill contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-value">roohollah419&#64;gmail.com</span>
+              </div>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:+989138970651"
+               class="contact-item"
+               aria-label="Call +98 913 897 0651">
+              <i class="bi bi-phone-fill contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Phone</span>
+                <span class="contact-item-value">+98 913 897 0651</span>
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Contact Form Card -->
+      <div class="col-lg-7 col-md-12">
+        <article class="contact-card" aria-label="Contact Form">
+          <!-- Card Header -->
+          <div class="card-header">
+            <i class="bi bi-send-fill header-icon" aria-hidden="true"></i>
+            <h3 class="header-title">Send a Message</h3>
+          </div>
+
+          <!-- Success Alert -->
+          <div class="alert alert-success" *ngIf="submitSuccess" role="alert">
+            <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+            <span>Thank you! Your message has been sent successfully.</span>
+          </div>
+
+          <!-- Error Alert -->
+          <div class="alert alert-danger" *ngIf="submitError" role="alert">
+            <i class="bi bi-exclamation-triangle-fill" aria-hidden="true"></i>
+            <span>{{ errorMessage }}</span>
+          </div>
+
+          <!-- Contact Form -->
+          <form [formGroup]="contact" aria-label="Contact Form" novalidate>
+
+            <!-- Honeypot Field (Hidden) -->
+            <div class="honeypot-field">
+              <label for="website">Website</label>
+              <input id="website"
+                     type="text"
+                     [formControl]="honeypot"
+                     tabindex="-1"
+                     autocomplete="off"
+                     aria-hidden="true">
             </div>
-            <div class="contact-field">
-                <span>
-                    <i class="bi bi-envelope-fill"></i>
-                    <a href="mailto:roohollah419@gmail.com">{{'Roohollah419@gmail.com'}}</a>
-                </span>
+
+            <!-- Full Name Field -->
+            <div class="form-field">
+              <label for="fullName" class="visually-hidden">Full Name</label>
+              <div class="field-wrapper" [class.invalid]="isFieldInvalid('fullName')">
+                <i class="bi bi-person-badge-fill field-icon" aria-hidden="true"></i>
+                <input id="fullName"
+                       type="text"
+                       placeholder="Full Name"
+                       [formControl]="contact.controls.fullName"
+                       aria-required="true"
+                       [attr.aria-invalid]="isFieldInvalid('fullName')">
+              </div>
+              <div class="validation-error" *ngIf="isFieldInvalid('fullName')">
+                <i class="bi bi-exclamation-circle" aria-hidden="true"></i>
+                <small>Full name is required (minimum 2 characters)</small>
+              </div>
             </div>
-            <div class="contact-field">
-                <span>
-                    <i class="bi bi-phone-fill"></i>
-                    <a href="callto:00989138970651">+989138970651</a>
-                </span>
+
+            <!-- Email Field -->
+            <div class="form-field">
+              <label for="email" class="visually-hidden">Email Address</label>
+              <div class="field-wrapper" [class.invalid]="isFieldInvalid('email')">
+                <i class="bi bi-at field-icon" aria-hidden="true"></i>
+                <input id="email"
+                       type="email"
+                       placeholder="Email Address"
+                       [formControl]="contact.controls.email"
+                       aria-required="true"
+                       [attr.aria-invalid]="isFieldInvalid('email')">
+              </div>
+              <div class="validation-error" *ngIf="isFieldInvalid('email')">
+                <i class="bi bi-exclamation-circle" aria-hidden="true"></i>
+                <small>Valid email address is required</small>
+              </div>
             </div>
-        </div>
-        <div class="col-md-6 col-xs-12">
-            <h5 class="text-center">send a message</h5>
-            <form class="form" [formGroup]="contact">
-                <div class="contact-field">
-                    <span>
-                        <i class="bi bi-person-badge-fill"></i>
-                        <input type="text" placeholder="Name" [formControl]="contact.controls.fullName">
-                    </span>
-                </div>
-                <div class="contact-field">
-                    <span>
-                        <i class="bi bi-at"></i>
-                        <input type="email" placeholder="Email" [formControl]="contact.controls.email">
-                    </span>
-                </div>
-                <div class="contact-field">
-                    <span>
-                        <i class="bi bi-chat-dots-fill"></i>
-                        <textarea placeholder="message" [formControl]="contact.controls.message" maxlength="500"></textarea>
-                    </span>
-                </div>
-                <div class="character-counter">
-                    <small>{{ messageCharacterCount }}/500</small>
-                </div>
-                <div *ngIf="isFieldInvalid('message')" class="validation-error">
-                    <small *ngIf="contact.controls.message.errors?.['required'] || contact.controls.message.errors?.['minlength']">Message is required (minimum 10 characters)</small>
-                    <small *ngIf="contact.controls.message.errors?.['maxlength']">Message cannot exceed 500 characters</small>
-                </div>
-                <button type="button" (click)="submitForm()" class="btn btn-success"
-                    [disabled]="!contact.valid">SUBMIT</button>
-            </form>
-        </div>
+
+            <!-- Message Field -->
+            <div class="form-field">
+              <label for="message" class="visually-hidden">Message</label>
+              <div class="field-wrapper field-wrapper-textarea" [class.invalid]="isFieldInvalid('message')">
+                <i class="bi bi-chat-dots-fill field-icon" aria-hidden="true"></i>
+                <textarea id="message"
+                          placeholder="Your Message"
+                          [formControl]="contact.controls.message"
+                          maxlength="500"
+                          rows="6"
+                          aria-required="true"
+                          [attr.aria-invalid]="isFieldInvalid('message')"></textarea>
+              </div>
+
+              <!-- Character Counter -->
+              <div class="character-counter">
+                <small>{{ messageCharacterCount }}/500 characters</small>
+              </div>
+
+              <div class="validation-error" *ngIf="isFieldInvalid('message')">
+                <i class="bi bi-exclamation-circle" aria-hidden="true"></i>
+                <small *ngIf="contact.controls.message.errors?.['required'] || contact.controls.message.errors?.['minlength']">
+                  Message is required (minimum 10 characters)
+                </small>
+                <small *ngIf="contact.controls.message.errors?.['maxlength']">
+                  Message cannot exceed 500 characters
+                </small>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit"
+                    class="submit-button"
+                    [disabled]="!contact.valid || isSubmitting"
+                    (click)="submitForm()"
+                    [attr.aria-busy]="isSubmitting">
+              <span *ngIf="!isSubmitting" class="button-content">
+                <i class="bi bi-send-fill" aria-hidden="true"></i>
+                Send Message
+              </span>
+              <span *ngIf="isSubmitting" class="button-content loading-state">
+                <i class="bi bi-hourglass-split spinner" aria-hidden="true"></i>
+                Sending...
+              </span>
+            </button>
+          </form>
+        </article>
+      </div>
     </div>
-</div>
+  </div>
+</section>

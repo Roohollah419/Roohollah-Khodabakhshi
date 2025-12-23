@@ -1,0 +1,353 @@
+/* ========================================
+   Language Section - Visual Skills Chart
+   ======================================== */
+
+.language-section {
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+.language-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.language-main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  color: #a78bfa;
+}
+
+.language-subheading {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.language-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ========================================
+   Languages Grid
+   ======================================== */
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2rem;
+}
+
+/* Language Card */
+.language-card {
+  background-color: rgba(3, 3, 3, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(167, 139, 250, 0.2);
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.language-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.flag {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.language-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.proficiency-badge {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+  border: 1px solid #a78bfa;
+  border-radius: 2rem;
+  color: #a78bfa;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.proficiency-badge.native {
+  background: linear-gradient(135deg, rgba(81, 207, 102, 0.2) 0%, rgba(69, 178, 87, 0.2) 100%);
+  border-color: #51cf66;
+  color: #51cf66;
+}
+
+.level-description {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* ========================================
+   Skills Chart
+   ======================================== */
+
+.skills-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.skill-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill-icon {
+  color: #a78bfa;
+  font-size: 1.1rem;
+}
+
+.skill-name {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.skill-score {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.score-value {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.score-max {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.score-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 1rem;
+  transition: width 1s ease-in-out, background-color 0.3s ease;
+  position: relative;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991px) {
+  .language-main-heading {
+    font-size: 2.25rem;
+  }
+
+  .header-icon {
+    font-size: 2.25rem;
+  }
+
+  .languages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-card {
+    padding: 1.75rem;
+  }
+}
+
+/* Mobile (576px - 767px) */
+@media (max-width: 767px) {
+  .language-section {
+    padding: 1.5rem 0;
+  }
+
+  .language-main-heading {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 2rem;
+  }
+
+  .languages-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .language-card {
+    padding: 1.5rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .proficiency-badge {
+    align-self: flex-start;
+  }
+
+  .language-name {
+    font-size: 1.35rem;
+  }
+
+  .skill-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .score-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+
+/* Small Mobile (400px - 575px) */
+@media (max-width: 575px) {
+  .language-main-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-icon {
+    font-size: 1.75rem;
+  }
+
+  .language-card {
+    padding: 1.25rem;
+  }
+
+  .flag {
+    font-size: 1.5rem;
+  }
+
+  .language-name {
+    font-size: 1.25rem;
+  }
+
+  .skill-name {
+    font-size: 0.95rem;
+  }
+
+  .score-value {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Mobile (<400px) */
+@media (max-width: 399px) {
+  .language-main-heading {
+    font-size: 1.5rem;
+  }
+
+  .header-icon {
+    font-size: 1.5rem;
+  }
+
+  .language-container {
+    padding: 0 0.5rem;
+  }
+
+  .language-card {
+    padding: 1rem;
+  }
+
+  .skill-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

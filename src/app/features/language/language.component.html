@@ -1,0 +1,151 @@
+<section class="language-section fade-in" aria-labelledby="language-heading">
+  <!-- Header -->
+  <header class="language-header">
+    <h2 id="language-heading" class="text-center language-main-heading">
+      <i class="bi bi-translate header-icon" aria-hidden="true"></i>
+      {{ content.heading }}
+    </h2>
+    <p class="language-subheading text-center" *ngIf="content.subheading">{{ content.subheading }}</p>
+  </header>
+
+  <!-- Languages Container -->
+  <div class="language-container">
+    <div class="languages-grid">
+      <!-- Language Card -->
+      <article
+        class="language-card"
+        *ngFor="let lang of languages; trackBy: trackByLanguage"
+        [attr.aria-label]="lang.ariaLabel">
+
+        <!-- Card Header -->
+        <div class="card-header">
+          <div class="language-title">
+            <span class="flag" *ngIf="lang.flag" aria-hidden="true">{{ lang.flag }}</span>
+            <h3 class="language-name">{{ lang.name }}</h3>
+          </div>
+          <div class="proficiency-badge" [class.native]="lang.level === 'Native'">
+            {{ lang.level }}
+          </div>
+        </div>
+
+        <!-- Level Description -->
+        <p class="level-description" *ngIf="lang.levelDescription">{{ lang.levelDescription }}</p>
+
+        <!-- Skills Chart -->
+        <div class="skills-chart">
+          <!-- Reading Skill -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <div class="skill-info">
+                <i class="bi bi-book-fill skill-icon" aria-hidden="true"></i>
+                <span class="skill-name">Reading</span>
+              </div>
+              <div class="skill-score">
+                <span class="score-value">{{ lang.skills.reading }}</span>
+                <span class="score-max">/5</span>
+                <span class="score-badge" [style.background-color]="getSkillColor(lang.skills.reading)">
+                  {{ getSkillLevelText(lang.skills.reading) }}
+                </span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                [style.width.%]="getPercentage(lang.skills.reading)"
+                [style.background-color]="getSkillColor(lang.skills.reading)"
+                role="progressbar"
+                [attr.aria-valuenow]="lang.skills.reading"
+                [attr.aria-valuemin]="0"
+                [attr.aria-valuemax]="5">
+              </div>
+            </div>
+          </div>
+
+          <!-- Writing Skill -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <div class="skill-info">
+                <i class="bi bi-pencil-fill skill-icon" aria-hidden="true"></i>
+                <span class="skill-name">Writing</span>
+              </div>
+              <div class="skill-score">
+                <span class="score-value">{{ lang.skills.writing }}</span>
+                <span class="score-max">/5</span>
+                <span class="score-badge" [style.background-color]="getSkillColor(lang.skills.writing)">
+                  {{ getSkillLevelText(lang.skills.writing) }}
+                </span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                [style.width.%]="getPercentage(lang.skills.writing)"
+                [style.background-color]="getSkillColor(lang.skills.writing)"
+                role="progressbar"
+                [attr.aria-valuenow]="lang.skills.writing"
+                [attr.aria-valuemin]="0"
+                [attr.aria-valuemax]="5">
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaking Skill -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <div class="skill-info">
+                <i class="bi bi-mic-fill skill-icon" aria-hidden="true"></i>
+                <span class="skill-name">Speaking</span>
+              </div>
+              <div class="skill-score">
+                <span class="score-value">{{ lang.skills.speaking }}</span>
+                <span class="score-max">/5</span>
+                <span class="score-badge" [style.background-color]="getSkillColor(lang.skills.speaking)">
+                  {{ getSkillLevelText(lang.skills.speaking) }}
+                </span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                [style.width.%]="getPercentage(lang.skills.speaking)"
+                [style.background-color]="getSkillColor(lang.skills.speaking)"
+                role="progressbar"
+                [attr.aria-valuenow]="lang.skills.speaking"
+                [attr.aria-valuemin]="0"
+                [attr.aria-valuemax]="5">
+              </div>
+            </div>
+          </div>
+
+          <!-- Listening Skill -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <div class="skill-info">
+                <i class="bi bi-headphones skill-icon" aria-hidden="true"></i>
+                <span class="skill-name">Listening</span>
+              </div>
+              <div class="skill-score">
+                <span class="score-value">{{ lang.skills.listening }}</span>
+                <span class="score-max">/5</span>
+                <span class="score-badge" [style.background-color]="getSkillColor(lang.skills.listening)">
+                  {{ getSkillLevelText(lang.skills.listening) }}
+                </span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                [style.width.%]="getPercentage(lang.skills.listening)"
+                [style.background-color]="getSkillColor(lang.skills.listening)"
+                role="progressbar"
+                [attr.aria-valuenow]="lang.skills.listening"
+                [attr.aria-valuemin]="0"
+                [attr.aria-valuemax]="5">
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

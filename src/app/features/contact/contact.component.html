@@ -41,8 +41,15 @@
                 <div class="contact-field">
                     <span>
                         <i class="bi bi-chat-dots-fill"></i>
-                        <textarea placeholder="message" [formControl]="contact.controls.message"></textarea>
+                        <textarea placeholder="message" [formControl]="contact.controls.message" maxlength="500"></textarea>
                     </span>
+                </div>
+                <div class="character-counter">
+                    <small>{{ messageCharacterCount }}/500</small>
+                </div>
+                <div *ngIf="isFieldInvalid('message')" class="validation-error">
+                    <small *ngIf="contact.controls.message.errors?.['required'] || contact.controls.message.errors?.['minlength']">Message is required (minimum 10 characters)</small>
+                    <small *ngIf="contact.controls.message.errors?.['maxlength']">Message cannot exceed 500 characters</small>
                 </div>
                 <button type="button" (click)="submitForm()" class="btn btn-success"
                     [disabled]="!contact.valid">SUBMIT</button>

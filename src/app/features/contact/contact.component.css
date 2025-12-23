@@ -29,3 +29,13 @@ button{
     width: 100%;
     margin-bottom: 100px;
 }
+
+/* Character counter */
+.character-counter {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  text-align: right;
+  padding: 4px 18px 0 18px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}

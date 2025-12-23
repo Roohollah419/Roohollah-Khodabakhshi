@@ -35,7 +35,7 @@ export default class ContactComponent {
       Validators.email,
       Validators.pattern(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)
     ]),
-    message: new FormControl('', [Validators.required, Validators.minLength(10)]),
+    message: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(500)]),
   });
 
   constructor(
@@ -43,6 +43,10 @@ export default class ContactComponent {
     private recaptchaService: RecaptchaService,
     private rateLimiter: RateLimiterService
   ) {}
+
+  get messageCharacterCount(): number {
+    return this.contact.get('message')?.value?.length || 0;
+  }
 
   async submitForm(): Promise<void> {
     // Reset previous states

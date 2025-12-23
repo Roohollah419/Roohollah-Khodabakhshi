@@ -1,58 +1,102 @@
-<div class="fade-in">
-    <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide>
-            <div class="card text-center">
-                <div class="service-icon">
-                    <i class="bi bi-back"></i>
-                </div>
-                <span class="service-title">Back-end Development</span>
-                <span class="service-description">With expertise in ASP.NET Core, Node.js, and SQL Server, I can
-                    effectively contribute as a back-end developer by designing and implementing robust server-side
-                    applications.</span>
+<section class="services-section fade-in" aria-labelledby="services-heading">
+  <!-- Header -->
+  <header class="services-header">
+    <h2 id="services-heading" class="text-center services-main-heading">
+      {{ content.heading }}
+    </h2>
+    <p *ngIf="content.subheading" class="text-center services-subheading">
+      {{ content.subheading }}
+    </p>
+  </header>
+
+  <!-- Enhanced Owl Carousel -->
+  <div class="services-carousel-container">
+    <owl-carousel-o
+      [options]="carouselOptions"
+      class="services-carousel"
+      aria-label="Services showcase carousel">
+
+      <!-- Service Card Template -->
+      <ng-template
+        carouselSlide
+        *ngFor="let service of services; trackBy: trackByService">
+
+        <article
+          class="service-card-wrapper"
+          [attr.data-category]="service.category">
+
+          <div
+            class="card service-card"
+            [attr.aria-label]="service.ariaLabel || service.title">
+
+            <!-- Category Badge -->
+            <div class="service-category-badge"
+                 [style.background-color]="service.categoryColor + '20'"
+                 [style.border-color]="service.categoryColor"
+                 [style.color]="service.categoryColor">
+              <span class="badge-text">{{ service.category }}</span>
+              <span *ngIf="service.featured" class="featured-star" aria-label="Featured service">
+                <i class="bi bi-star-fill"></i>
+              </span>
             </div>
-        </ng-template>
-        <ng-template carouselSlide>
-            <div class="card text-center">
-                <div class="service-icon">
-                    <i class="bi bi-front"></i>
-                </div>
-                <span class="service-title">Front-end Development</span>
-                <span class="service-description">With experience in designing responsive web applications using HTML,
-                    CSS, JavaScript, and Angular, I excel in creating user-friendly interfaces and collaborating in
-                    Agile Scrum teams.</span>
+
+            <!-- Service Icon -->
+            <div class="service-icon-wrapper">
+              <div class="icon-background"
+                   [style.background]="'radial-gradient(circle, ' + service.categoryColor + '20 0%, transparent 70%)'">
+                <i
+                  [class]="'bi ' + service.icon + ' service-icon'"
+                  [style.color]="service.categoryColor"
+                  aria-hidden="true"></i>
+              </div>
             </div>
-        </ng-template>
-        <ng-template carouselSlide>
-            <div class="card text-center">
-                <div class="service-icon">
-                    <i class="bi bi-database"></i>
-                </div>
-                <span class="service-title">Database Design</span>
-                <span class="service-description">With strong skills in Microsoft SQL Server, I can effectively analyze
-                    and design database solutions to optimize data management and support application
-                    functionality.</span>
+
+            <!-- Service Content -->
+            <div class="service-content">
+              <!-- Title -->
+              <h3 class="service-title">{{ service.title }}</h3>
+
+              <!-- Description -->
+              <p class="service-description">{{ service.description }}</p>
+
+              <!-- Technology Pills -->
+              <div class="technology-tags">
+                <span
+                  *ngFor="let tech of service.technologies; trackBy: trackByTechnology"
+                  class="tech-pill"
+                  [style.border-color]="service.categoryColor + '40'"
+                  [attr.aria-label]="'Technology: ' + tech.name">
+                  <i *ngIf="tech.icon"
+                     [class]="'bi ' + tech.icon + ' tech-icon'"
+                     aria-hidden="true"></i>
+                  <span class="tech-name">{{ tech.name }}</span>
+                </span>
+              </div>
+
+              <!-- Service Level Badge -->
+              <div class="service-level-badge">
+                <span
+                  class="level-badge"
+                  [style.background-color]="service.categoryColor + '15'"
+                  [style.color]="service.categoryColor">
+                  {{ service.level }}
+                </span>
+              </div>
             </div>
-        </ng-template>
-        <ng-template carouselSlide>
-            <div class="card text-center">
-                <div class="service-icon">
-                    <i class="bi bi-wrench-adjustable"></i>
-                </div>
-                <span class="service-title">Consultancy</span>
-                <span class="service-description">Leveraging extensive experience in software development and Agile
-                    methodologies, I provide strategic IT consultancy to enhance project efficiency and drive
-                    innovation.</span>
-            </div>
-        </ng-template>
-        <ng-template carouselSlide>
-            <div class="card text-center">
-                <div class="service-icon">
-                    <i class="bi bi-infinity"></i>
-                </div>
-                <span class="service-title">DevOps Solutions</span>
-                <span class="service-description"> With expertise in Azure DevOps and GitLab, I deliver robust CI/CD
-                    solutions to streamline development workflows and enhance project efficiency.</span>
-            </div>
-        </ng-template>
+
+            <!-- Hover Effect Overlay -->
+            <div class="card-shine-effect" aria-hidden="true"></div>
+          </div>
+        </article>
+      </ng-template>
     </owl-carousel-o>
-</div>
+  </div>
+
+  <!-- Navigation Hint -->
+  <div class="carousel-navigation-hint" role="status" aria-live="polite">
+    <p class="hint-text">
+      <i class="bi bi-arrow-left-right"></i>
+      Drag or use navigation arrows to explore all services
+    </p>
+  </div>
+</section>

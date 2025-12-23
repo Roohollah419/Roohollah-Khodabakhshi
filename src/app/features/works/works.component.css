@@ -1,0 +1,805 @@
+/* ========================================
+   Section Container
+======================================== */
+.works-section {
+  padding: 2rem 0;
+}
+
+.works-carousel-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ========================================
+   Header Styles
+======================================== */
+.works-header {
+  margin-bottom: 3rem;
+}
+
+.works-main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  color: #a78bfa;
+}
+
+.works-subheading {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================================
+   Work Card Wrapper
+======================================== */
+.work-card-wrapper {
+  padding: 0.5rem;
+  height: 100%;
+}
+
+/* ========================================
+   Card Base Styles
+======================================== */
+.card {
+  background-color: rgba(3, 3, 3, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2rem;
+  height: 550px;
+}
+
+.card:hover {
+  transform: translateY(-12px);
+  border-color: rgba(167, 139, 250, 0.5);
+  box-shadow: 0 12px 40px rgba(167, 139, 250, 0.25);
+}
+
+/* ========================================
+   Featured Badge
+======================================== */
+.featured-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.2);
+  border: 2px solid #a78bfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a78bfa;
+  font-size: 1rem;
+  z-index: 2;
+  animation: starPulse 2s ease-in-out infinite;
+}
+
+@keyframes starPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+/* ========================================
+   Work Header - Company & Location
+======================================== */
+.work-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(167, 139, 250, 0.3);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #a78bfa;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.company-name i {
+  font-size: 1.3rem;
+}
+
+.card:hover .company-name {
+  color: #c4b5fd;
+  transform: translateX(5px);
+}
+
+.location {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 2rem;
+}
+
+.location i {
+  font-size: 0.9rem;
+  color: #a78bfa;
+}
+
+/* ========================================
+   Role & Duration Section
+======================================== */
+.role-section {
+  margin-bottom: 1.25rem;
+}
+
+.role-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.3;
+}
+
+.duration-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.date-range i {
+  color: #a78bfa;
+  font-size: 0.9rem;
+}
+
+.duration-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  border-radius: 1rem;
+  color: #a78bfa;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.duration-badge i {
+  font-size: 0.85rem;
+}
+
+.card:hover .duration-badge {
+  background: rgba(167, 139, 250, 0.25);
+  border-color: #a78bfa;
+}
+
+/* ========================================
+   Technology Section
+======================================== */
+.technology-section {
+  margin-bottom: 1.25rem;
+}
+
+.technology-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1.25rem;
+  border: 1px solid;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  backdrop-filter: blur(10px);
+}
+
+.tech-icon {
+  font-size: 0.85rem;
+}
+
+.tech-name {
+  line-height: 1;
+}
+
+.card:hover .tech-pill {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* ========================================
+   Achievements Section
+======================================== */
+.achievements-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.achievements-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #a78bfa;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.achievements-heading i {
+  font-size: 1rem;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.achievement-bullet {
+  color: #a78bfa;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+.achievement-text {
+  flex: 1;
+}
+
+.card:hover .achievement-item {
+  color: rgba(255, 255, 255, 1);
+}
+
+.card:hover .achievement-bullet {
+  color: #c4b5fd;
+  transform: translateX(3px);
+}
+
+/* Custom Scrollbar for Achievements */
+.achievements-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.achievements-section::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.achievements-section::-webkit-scrollbar-thumb {
+  background: rgba(167, 139, 250, 0.4);
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.achievements-section::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 139, 250, 0.6);
+}
+
+/* ========================================
+   Hover Shine Effect
+======================================== */
+.card-shine-effect {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(167, 139, 250, 0.15) 50%,
+    transparent 70%
+  );
+  transform: translateX(-100%);
+  transition: none;
+  pointer-events: none;
+}
+
+.card:hover .card-shine-effect {
+  animation: shineEffect 0.8s ease-out;
+}
+
+@keyframes shineEffect {
+  0% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%);
+  }
+}
+
+/* ========================================
+   Card Entrance Animation
+======================================== */
+@keyframes cardSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.work-card {
+  animation: cardSlideIn 0.6s ease-out forwards;
+}
+
+/* Staggered animation delays */
+::ng-deep .owl-item:nth-child(1) .work-card {
+  animation-delay: 0.1s;
+}
+
+::ng-deep .owl-item:nth-child(2) .work-card {
+  animation-delay: 0.2s;
+}
+
+::ng-deep .owl-item:nth-child(3) .work-card {
+  animation-delay: 0.3s;
+}
+
+::ng-deep .owl-item:nth-child(4) .work-card {
+  animation-delay: 0.4s;
+}
+
+::ng-deep .owl-item:nth-child(5) .work-card {
+  animation-delay: 0.5s;
+}
+
+::ng-deep .owl-item:nth-child(6) .work-card {
+  animation-delay: 0.6s;
+}
+
+/* ========================================
+   Carousel Navigation Hint
+======================================== */
+.carousel-navigation-hint {
+  text-align: center;
+  margin-top: 2rem;
+  opacity: 0.6;
+}
+
+.hint-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hint-text i {
+  font-size: 1.2rem;
+}
+
+/* ========================================
+   Owl Carousel Customization - Purple Theme
+======================================== */
+
+/* Navigation Arrows */
+::ng-deep .works-carousel .owl-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  pointer-events: all;
+}
+
+::ng-deep .works-carousel .owl-nav button {
+  background: rgba(167, 139, 250, 0.15) !important;
+  color: #a78bfa !important;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(167, 139, 250, 0.3);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+::ng-deep .works-carousel .owl-nav button:hover {
+  background: rgba(167, 139, 250, 0.3) !important;
+  border-color: #a78bfa;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.4);
+}
+
+::ng-deep .works-carousel .owl-nav button i {
+  font-size: 1.5rem;
+}
+
+/* Dots Navigation - Purple Theme */
+::ng-deep .works-carousel .owl-dots {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+::ng-deep .works-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 0.4rem;
+}
+
+::ng-deep .works-carousel .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.3);
+  display: block;
+  transition: all 0.3s ease;
+}
+
+::ng-deep .works-carousel .owl-dots .owl-dot.active span {
+  background: #a78bfa;
+  width: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(167, 139, 250, 0.5);
+}
+
+::ng-deep .works-carousel .owl-dots .owl-dot:hover span {
+  background: rgba(167, 139, 250, 0.6);
+}
+
+/* Carousel Stage */
+::ng-deep .works-carousel .owl-stage-outer {
+  padding: 2rem 0;
+  overflow: visible;
+}
+
+/* ========================================
+   Responsive Design
+======================================== */
+
+/* Large Desktops (1400px+) */
+@media (min-width: 1400px) {
+  .work-card {
+    height: 550px;
+  }
+}
+
+/* Desktops (992px - 1399px) */
+@media (max-width: 1399px) {
+  .work-card {
+    height: 550px;
+    padding: 2.25rem 1.75rem;
+  }
+
+  .company-name {
+    font-size: 1.4rem;
+  }
+
+  .role-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablets (768px - 991px) */
+@media (max-width: 991px) {
+  .works-main-heading {
+    font-size: 2.25rem;
+  }
+
+  .header-icon {
+    font-size: 2.25rem;
+  }
+
+  .work-card {
+    height: 530px;
+    padding: 2rem 1.5rem;
+  }
+
+  .company-name {
+    font-size: 1.3rem;
+  }
+
+  .role-title {
+    font-size: 1.15rem;
+  }
+
+  .achievement-item {
+    font-size: 0.875rem;
+  }
+
+  ::ng-deep .works-carousel .owl-nav button {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile (576px - 767px) */
+@media (max-width: 767px) {
+  .works-section {
+    padding: 1rem 0;
+  }
+
+  .works-header {
+    margin-bottom: 2rem;
+  }
+
+  .works-main-heading {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 2rem;
+  }
+
+  .works-subheading {
+    font-size: 1rem;
+  }
+
+  .work-card {
+    height: 520px;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .featured-badge {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .company-name {
+    font-size: 1.25rem;
+  }
+
+  .role-title {
+    font-size: 1.1rem;
+  }
+
+  .duration-info {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .tech-pill {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.7rem;
+  }
+
+  .achievement-item {
+    font-size: 0.85rem;
+  }
+
+  ::ng-deep .works-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .carousel-navigation-hint {
+    margin-top: 1.5rem;
+  }
+
+  .hint-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small Mobile (400px - 575px) */
+@media (max-width: 575px) {
+  .work-card {
+    height: 500px;
+    padding: 1.5rem 1rem;
+  }
+
+  .company-name {
+    font-size: 1.2rem;
+  }
+
+  .location {
+    font-size: 0.875rem;
+    margin-left: 1.75rem;
+  }
+
+  .role-title {
+    font-size: 1.05rem;
+  }
+
+  .tech-pill {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .achievement-item {
+    font-size: 0.8rem;
+    gap: 0.6rem;
+  }
+}
+
+/* Extra Small Mobile (<400px) */
+@media (max-width: 399px) {
+  .works-main-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-icon {
+    font-size: 1.75rem;
+  }
+
+  .work-card {
+    height: 480px;
+    padding: 1.25rem 0.875rem;
+  }
+
+  .featured-badge {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+
+  .company-name {
+    font-size: 1.1rem;
+  }
+
+  .location {
+    font-size: 0.8rem;
+  }
+
+  .role-title {
+    font-size: 1rem;
+  }
+}
+
+/* ========================================
+   Accessibility Features
+======================================== */
+
+/* Focus States */
+.card:focus-within {
+  outline: 3px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 4px;
+}
+
+::ng-deep .works-carousel .owl-nav button:focus {
+  outline: 3px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 3px;
+}
+
+::ng-deep .works-carousel .owl-dots .owl-dot:focus {
+  outline: 2px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .work-card,
+  .featured-badge,
+  .card-shine-effect,
+  .achievement-bullet {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  ::ng-deep .works-carousel .owl-stage {
+    transition: none !important;
+  }
+
+  ::ng-deep .works-carousel .owl-nav button {
+    transition: none !important;
+  }
+
+  ::ng-deep .works-carousel .owl-nav button:hover {
+    transform: none;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .card {
+    border: 2px solid #ffffff;
+  }
+
+  .card:hover {
+    border: 3px solid #a78bfa;
+  }
+
+  .featured-badge {
+    border-width: 3px;
+  }
+
+  ::ng-deep .works-carousel .owl-nav button {
+    border-width: 3px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  ::ng-deep .works-carousel .owl-nav,
+  ::ng-deep .works-carousel .owl-dots,
+  .carousel-navigation-hint {
+    display: none;
+  }
+}

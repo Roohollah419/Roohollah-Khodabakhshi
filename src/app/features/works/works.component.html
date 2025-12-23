@@ -1,1 +1,115 @@
-<p>works works!</p>
+<section class="works-section fade-in" aria-labelledby="works-heading">
+  <!-- Header -->
+  <header class="works-header">
+    <h2 id="works-heading" class="text-center works-main-heading">
+      <i class="bi bi-briefcase-fill header-icon" aria-hidden="true"></i>
+      {{ content.heading }}
+    </h2>
+    <p *ngIf="content.subheading" class="text-center works-subheading">
+      {{ content.subheading }}
+    </p>
+  </header>
+
+  <!-- Work Experience Carousel -->
+  <div class="works-carousel-container">
+    <owl-carousel-o
+      [options]="carouselOptions"
+      class="works-carousel"
+      aria-label="Work experience carousel">
+
+      <!-- Work Card Template -->
+      <ng-template
+        carouselSlide
+        *ngFor="let work of workExperiences; trackBy: trackByWork">
+
+        <article
+          class="work-card-wrapper"
+          [attr.data-featured]="work.featured">
+
+          <div
+            class="card work-card"
+            [attr.aria-label]="work.ariaLabel || work.role + ' at ' + work.company">
+
+            <!-- Featured Badge -->
+            <div *ngIf="work.featured" class="featured-badge" aria-label="Featured position">
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Card Header - Company & Location -->
+            <div class="work-header">
+              <div class="company-info">
+                <h3 class="company-name">
+                  <i class="bi bi-building" aria-hidden="true"></i>
+                  {{ work.company }}
+                </h3>
+                <div class="location">
+                  <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                  {{ work.location }}
+                </div>
+              </div>
+            </div>
+
+            <!-- Role & Duration -->
+            <div class="role-section">
+              <h4 class="role-title">{{ work.role }}</h4>
+              <div class="duration-info">
+                <span class="date-range">
+                  <i class="bi bi-calendar3" aria-hidden="true"></i>
+                  {{ work.startDate }} - {{ work.endDate }}
+                </span>
+                <span *ngIf="work.duration" class="duration-badge">
+                  <i class="bi bi-clock" aria-hidden="true"></i>
+                  {{ work.duration }}
+                </span>
+              </div>
+            </div>
+
+            <!-- Technology Tags -->
+            <div class="technology-section">
+              <div class="technology-tags">
+                <span
+                  *ngFor="let tech of work.technologies; trackBy: trackByTechnology"
+                  class="tech-pill"
+                  [style.border-color]="tech.color + '40'"
+                  [style.color]="tech.color"
+                  [attr.aria-label]="'Technology: ' + tech.name">
+                  <i *ngIf="tech.icon"
+                     [class]="'bi ' + tech.icon + ' tech-icon'"
+                     aria-hidden="true"></i>
+                  <span class="tech-name">{{ tech.name }}</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Achievements List -->
+            <div class="achievements-section">
+              <h5 class="achievements-heading">
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                Key Achievements
+              </h5>
+              <ul class="achievements-list">
+                <li
+                  *ngFor="let achievement of work.achievements; trackBy: trackByAchievement"
+                  class="achievement-item">
+                  <i class="bi bi-chevron-right achievement-bullet" aria-hidden="true"></i>
+                  <span class="achievement-text">{{ achievement }}</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Hover Effect Overlay -->
+            <div class="card-shine-effect" aria-hidden="true"></div>
+          </div>
+        </article>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+
+  <!-- Navigation Hint -->
+  <div class="carousel-navigation-hint" role="status" aria-live="polite">
+    <p class="hint-text">
+      <i class="bi bi-arrow-left-right"></i>
+      Swipe or use navigation to explore all work experiences
+    </p>
+  </div>
+</section>

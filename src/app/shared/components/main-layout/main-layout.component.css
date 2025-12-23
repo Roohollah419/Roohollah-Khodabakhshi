@@ -20,9 +20,7 @@ video {
   bottom: 0;
   z-index: -1;
 }
-.navbar{
-  margin-bottom: 100px;
-}
+
 .navbar-brand {
   color: white;
 }

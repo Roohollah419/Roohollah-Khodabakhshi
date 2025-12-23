@@ -1,1 +1,121 @@
-<p>testimonials works!</p>
+<section class="testimonials-section fade-in" aria-labelledby="testimonials-heading">
+  <!-- Header -->
+  <header class="testimonials-header">
+    <h2 id="testimonials-heading" class="text-center testimonials-main-heading">
+      <i class="bi bi-chat-quote header-icon" aria-hidden="true"></i>
+      {{ content.heading }}
+    </h2>
+    <p *ngIf="content.subheading" class="text-center testimonials-subheading">
+      {{ content.subheading }}
+    </p>
+  </header>
+
+  <!-- Testimonials Carousel -->
+  <div class="testimonials-carousel-container">
+    <owl-carousel-o
+      [options]="carouselOptions"
+      class="testimonials-carousel"
+      aria-label="Client testimonials carousel">
+
+      <!-- Testimonial Card Template -->
+      <ng-template
+        carouselSlide
+        *ngFor="let testimonial of testimonials; trackBy: trackByTestimonial">
+
+        <article
+          class="testimonial-card-wrapper"
+          [attr.data-featured]="testimonial.featured">
+
+          <div
+            class="card testimonial-card"
+            [attr.aria-label]="testimonial.ariaLabel || 'Testimonial from ' + testimonial.name">
+
+            <!-- Featured Badge -->
+            <div *ngIf="testimonial.featured" class="featured-badge" aria-label="Featured testimonial">
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Quote Icon -->
+            <div class="quote-icon-wrapper">
+              <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+            </div>
+
+            <!-- Testimonial Content -->
+            <div class="testimonial-content">
+              <!-- Testimonial Text -->
+              <blockquote class="testimonial-text">
+                "{{ testimonial.testimonialText }}"
+              </blockquote>
+
+              <!-- Author Section -->
+              <div class="author-section">
+                <!-- Avatar Circle with Initials -->
+                <div class="avatar-circle">
+                  <span class="avatar-initials">{{ testimonial.initials }}</span>
+                </div>
+
+                <!-- Author Info -->
+                <div class="author-info">
+                  <div class="author-name">{{ testimonial.name }}</div>
+                  <div class="author-role">{{ testimonial.role }}</div>
+                  <div class="author-company">
+                    <i class="bi bi-building" aria-hidden="true"></i>
+                    {{ testimonial.company }}
+                  </div>
+
+                  <!-- Social Media Links -->
+                  <div class="social-links" *ngIf="testimonial.socialLinks">
+                    <a *ngIf="testimonial.socialLinks.linkedin"
+                       [href]="testimonial.socialLinks.linkedin"
+                       class="social-link"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       [attr.aria-label]="'LinkedIn profile of ' + testimonial.name">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a *ngIf="testimonial.socialLinks.twitter"
+                       [href]="testimonial.socialLinks.twitter"
+                       class="social-link"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       [attr.aria-label]="'Twitter profile of ' + testimonial.name">
+                      <i class="bi bi-twitter-x" aria-hidden="true"></i>
+                    </a>
+
+                    <a *ngIf="testimonial.socialLinks.github"
+                       [href]="testimonial.socialLinks.github"
+                       class="social-link"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       [attr.aria-label]="'GitHub profile of ' + testimonial.name">
+                      <i class="bi bi-github" aria-hidden="true"></i>
+                    </a>
+
+                    <a *ngIf="testimonial.socialLinks.email"
+                       [href]="testimonial.socialLinks.email"
+                       class="social-link"
+                       [attr.aria-label]="'Email ' + testimonial.name">
+                      <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hover Effect Overlay -->
+            <div class="card-shine-effect" aria-hidden="true"></div>
+          </div>
+        </article>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+
+  <!-- Navigation Hint -->
+  <div class="carousel-navigation-hint" role="status" aria-live="polite">
+    <p class="hint-text">
+      <i class="bi bi-arrow-left-right"></i>
+      Swipe or use navigation to read all testimonials
+    </p>
+  </div>
+</section>

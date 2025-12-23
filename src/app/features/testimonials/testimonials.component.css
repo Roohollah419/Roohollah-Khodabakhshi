@@ -1,0 +1,822 @@
+/* ========================================
+   Section Container
+======================================== */
+.testimonials-section {
+  padding: 2rem 0;
+}
+
+.testimonials-carousel-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ========================================
+   Header Styles
+======================================== */
+.testimonials-header {
+  margin-bottom: 3rem;
+}
+
+.testimonials-main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  color: #a78bfa; /* Purple theme */
+}
+
+.testimonials-subheading {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================================
+   Testimonial Card Wrapper
+======================================== */
+.testimonial-card-wrapper {
+  padding: 0.5rem;
+  height: 100%;
+}
+
+/* ========================================
+   Card Base Styles
+======================================== */
+.card {
+  background-color: rgba(3, 3, 3, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2rem;
+  height: 412px;
+}
+
+.card:hover {
+  transform: translateY(-12px);
+  border-color: rgba(167, 139, 250, 0.5); /* Purple border on hover */
+  box-shadow: 0 12px 40px rgba(167, 139, 250, 0.25);
+}
+
+/* ========================================
+   Featured Badge
+======================================== */
+.featured-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.2);
+  border: 2px solid #a78bfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a78bfa;
+  font-size: 1rem;
+  z-index: 2;
+  animation: starPulse 2s ease-in-out infinite;
+}
+
+@keyframes starPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+/* ========================================
+   Quote Icon
+======================================== */
+.quote-icon-wrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-icon {
+  font-size: 3.5rem;
+  color: #a78bfa;
+  opacity: 0.6;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.card:hover .quote-icon {
+  transform: scale(1.1) rotate(-5deg);
+  opacity: 0.8;
+  filter: drop-shadow(0 0 20px #a78bfa);
+}
+
+/* ========================================
+   Testimonial Content
+======================================== */
+.testimonial-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testimonial-text {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  font-style: italic;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================================
+   Author Section
+======================================== */
+.author-section {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+/* ========================================
+   Avatar Circle
+======================================== */
+.avatar-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(167, 139, 250, 0.3) 0%, rgba(167, 139, 250, 0.1) 70%);
+  border: 3px solid #a78bfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.2);
+}
+
+.avatar-initials {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #a78bfa;
+  letter-spacing: 1px;
+}
+
+.card:hover .avatar-circle {
+  transform: scale(1.08);
+  border-color: #c4b5fd;
+  box-shadow: 0 6px 25px rgba(167, 139, 250, 0.4);
+}
+
+/* ========================================
+   Author Info
+======================================== */
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  text-align: left;
+}
+
+.author-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.3;
+}
+
+.author-role {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.author-company {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.author-company i {
+  font-size: 0.9rem;
+  color: #a78bfa;
+}
+
+/* ========================================
+   Social Media Links
+======================================== */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.15);  /* Purple theme with transparency */
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  color: #a78bfa;  /* Purple color */
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: rgba(167, 139, 250, 0.3);
+  border-color: #a78bfa;
+  color: #c4b5fd;  /* Lighter purple on hover */
+  transform: scale(1.15);
+  box-shadow: 0 2px 8px rgba(167, 139, 250, 0.4);
+}
+
+.social-link i {
+  font-size: 1rem;
+}
+
+/* Card hover enhancement - social links glow */
+.card:hover .social-link {
+  border-color: rgba(167, 139, 250, 0.5);
+}
+
+/* ========================================
+   Hover Shine Effect
+======================================== */
+.card-shine-effect {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(167, 139, 250, 0.15) 50%,
+    transparent 70%
+  );
+  transform: translateX(-100%);
+  transition: none;
+  pointer-events: none;
+}
+
+.card:hover .card-shine-effect {
+  animation: shineEffect 0.8s ease-out;
+}
+
+@keyframes shineEffect {
+  0% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%);
+  }
+}
+
+/* ========================================
+   Card Entrance Animation
+======================================== */
+@keyframes cardSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.testimonial-card {
+  animation: cardSlideIn 0.6s ease-out forwards;
+}
+
+/* Staggered animation delays */
+::ng-deep .owl-item:nth-child(1) .testimonial-card {
+  animation-delay: 0.1s;
+}
+
+::ng-deep .owl-item:nth-child(2) .testimonial-card {
+  animation-delay: 0.2s;
+}
+
+::ng-deep .owl-item:nth-child(3) .testimonial-card {
+  animation-delay: 0.3s;
+}
+
+::ng-deep .owl-item:nth-child(4) .testimonial-card {
+  animation-delay: 0.4s;
+}
+
+::ng-deep .owl-item:nth-child(5) .testimonial-card {
+  animation-delay: 0.5s;
+}
+
+::ng-deep .owl-item:nth-child(6) .testimonial-card {
+  animation-delay: 0.6s;
+}
+
+/* ========================================
+   Carousel Navigation Hint
+======================================== */
+.carousel-navigation-hint {
+  text-align: center;
+  margin-top: 2rem;
+  opacity: 0.6;
+}
+
+.hint-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hint-text i {
+  font-size: 1.2rem;
+}
+
+/* ========================================
+   Owl Carousel Customization - Purple Theme
+======================================== */
+
+/* Navigation Arrows */
+::ng-deep .testimonials-carousel .owl-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  pointer-events: all;
+}
+
+::ng-deep .testimonials-carousel .owl-nav button {
+  background: rgba(167, 139, 250, 0.15) !important;
+  color: #a78bfa !important;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(167, 139, 250, 0.3);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+::ng-deep .testimonials-carousel .owl-nav button:hover {
+  background: rgba(167, 139, 250, 0.3) !important;
+  border-color: #a78bfa;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.4);
+}
+
+::ng-deep .testimonials-carousel .owl-nav button i {
+  font-size: 1.5rem;
+}
+
+/* Dots Navigation - Purple Theme */
+::ng-deep .testimonials-carousel .owl-dots {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+::ng-deep .testimonials-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 0.4rem;
+}
+
+::ng-deep .testimonials-carousel .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.3);
+  display: block;
+  transition: all 0.3s ease;
+}
+
+::ng-deep .testimonials-carousel .owl-dots .owl-dot.active span {
+  background: #a78bfa;
+  width: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(167, 139, 250, 0.5);
+}
+
+::ng-deep .testimonials-carousel .owl-dots .owl-dot:hover span {
+  background: rgba(167, 139, 250, 0.6);
+}
+
+/* Carousel Stage */
+::ng-deep .testimonials-carousel .owl-stage-outer {
+  padding: 2rem 0;
+  overflow: visible;
+}
+
+/* ========================================
+   Responsive Design
+======================================== */
+
+/* Large Desktops (1400px+) */
+@media (min-width: 1400px) {
+  .testimonial-card {
+    height: 412px;
+  }
+}
+
+/* Desktops (992px - 1399px) */
+@media (max-width: 1399px) {
+  .testimonial-card {
+    height: 412px;
+    padding: 2.25rem 1.75rem;
+  }
+
+  .quote-icon {
+    font-size: 3.25rem;
+  }
+
+  .avatar-circle {
+    width: 65px;
+    height: 65px;
+  }
+
+  .avatar-initials {
+    font-size: 1.4rem;
+  }
+}
+
+/* Tablets (768px - 991px) */
+@media (max-width: 991px) {
+  .testimonials-main-heading {
+    font-size: 2.25rem;
+  }
+
+  .header-icon {
+    font-size: 2.25rem;
+  }
+
+  .testimonial-card {
+    height: 412px;
+    padding: 2rem 1.5rem;
+  }
+
+  .quote-icon {
+    font-size: 3rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.95rem;
+    line-height: 1.75;
+  }
+
+  .avatar-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .avatar-initials {
+    font-size: 1.3rem;
+  }
+
+  .author-name {
+    font-size: 1.1rem;
+  }
+
+  .author-role {
+    font-size: 0.9rem;
+  }
+
+  .social-link {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav button {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile (576px - 767px) */
+@media (max-width: 767px) {
+  .testimonials-section {
+    padding: 1rem 0;
+  }
+
+  .testimonials-header {
+    margin-bottom: 2rem;
+  }
+
+  .testimonials-main-heading {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 2rem;
+  }
+
+  .testimonials-subheading {
+    font-size: 1rem;
+  }
+
+  .testimonial-card {
+    height: 390px;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .featured-badge {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .quote-icon {
+    font-size: 2.75rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .author-section {
+    gap: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .avatar-circle {
+    width: 55px;
+    height: 55px;
+  }
+
+  .avatar-initials {
+    font-size: 1.2rem;
+  }
+
+  .author-name {
+    font-size: 1.05rem;
+  }
+
+  .author-role {
+    font-size: 0.875rem;
+  }
+
+  .author-company {
+    font-size: 0.8rem;
+  }
+
+  .social-links {
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+  }
+
+  .social-link {
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .carousel-navigation-hint {
+    margin-top: 1.5rem;
+  }
+
+  .hint-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small Mobile (400px - 575px) */
+@media (max-width: 575px) {
+  .testimonial-card {
+    height: 375px;
+    padding: 1.5rem 1rem;
+  }
+
+  .quote-icon {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .avatar-circle {
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+  }
+
+  .avatar-initials {
+    font-size: 1.1rem;
+  }
+
+  .author-name {
+    font-size: 1rem;
+  }
+
+  .author-role {
+    font-size: 0.85rem;
+  }
+
+  .author-company {
+    font-size: 0.75rem;
+  }
+
+  .author-company i {
+    font-size: 0.8rem;
+  }
+
+  .social-link {
+    width: 26px;
+    height: 26px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra Small Mobile (<400px) */
+@media (max-width: 399px) {
+  .testimonials-main-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-icon {
+    font-size: 1.75rem;
+  }
+
+  .testimonial-card {
+    height: 360px;
+    padding: 1.25rem 0.875rem;
+  }
+
+  .featured-badge {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+
+  .quote-icon {
+    font-size: 2.25rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.825rem;
+  }
+
+  .avatar-circle {
+    width: 45px;
+    height: 45px;
+  }
+
+  .avatar-initials {
+    font-size: 1rem;
+  }
+
+  .author-name {
+    font-size: 0.95rem;
+  }
+}
+
+/* ========================================
+   Accessibility Features
+======================================== */
+
+/* Focus States */
+.card:focus-within {
+  outline: 3px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 4px;
+}
+
+::ng-deep .testimonials-carousel .owl-nav button:focus {
+  outline: 3px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 3px;
+}
+
+::ng-deep .testimonials-carousel .owl-dots .owl-dot:focus {
+  outline: 2px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .quote-icon,
+  .avatar-circle,
+  .card-shine-effect,
+  .testimonial-card,
+  .featured-badge {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-stage {
+    transition: none !important;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav button {
+    transition: none !important;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav button:hover {
+    transform: none;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .card {
+    border: 2px solid #ffffff;
+  }
+
+  .card:hover {
+    border: 3px solid #a78bfa;
+  }
+
+  .avatar-circle {
+    border-width: 3px;
+  }
+
+  .featured-badge {
+    border-width: 3px;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav button {
+    border-width: 3px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  ::ng-deep .testimonials-carousel .owl-nav,
+  ::ng-deep .testimonials-carousel .owl-dots,
+  .carousel-navigation-hint {
+    display: none;
+  }
+}

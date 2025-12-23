@@ -29,6 +29,34 @@ video {
   color: white;
 }
 
+.download-cv-btn {
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  border: none;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.download-cv-btn:hover {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(167, 139, 250, 0.4);
+}
+
+.download-cv-btn:active {
+  transform: translateY(0);
+}
+
+.download-cv-btn i {
+  font-size: 1rem;
+}
+
 .footer {
   position: fixed;
   bottom: -8px;

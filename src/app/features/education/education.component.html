@@ -1,0 +1,70 @@
+<section class="education-section fade-in" aria-labelledby="education-heading">
+  <!-- Header -->
+  <header class="education-header">
+    <h2 id="education-heading" class="text-center education-main-heading">
+      <i class="bi bi-mortarboard-fill header-icon" aria-hidden="true"></i>
+      {{ content.heading }}
+    </h2>
+    <p class="education-subheading text-center" *ngIf="content.subheading">{{ content.subheading }}</p>
+  </header>
+
+  <!-- Education Table/Grid -->
+  <div class="education-container">
+    <div class="education-table">
+      <!-- Table Header -->
+      <div class="table-header">
+        <div class="header-cell degree-column">Degree</div>
+        <div class="header-cell field-column">Field of Study</div>
+        <div class="header-cell institution-column">Institution</div>
+        <div class="header-cell location-column">Location</div>
+        <div class="header-cell period-column">Period</div>
+      </div>
+
+      <!-- Table Body -->
+      <div class="table-body">
+        <div
+          class="table-row"
+          *ngFor="let edu of education; trackBy: trackByEducation"
+          [attr.aria-label]="edu.ariaLabel">
+
+          <div class="table-cell degree-column">
+            <div class="cell-label">Degree</div>
+            <div class="cell-content">
+              <i class="bi bi-award-fill degree-icon" aria-hidden="true"></i>
+              <span class="degree-text">{{ edu.degree }}</span>
+            </div>
+          </div>
+
+          <div class="table-cell field-column">
+            <div class="cell-label">Field of Study</div>
+            <div class="cell-content">{{ edu.field }}</div>
+          </div>
+
+          <div class="table-cell institution-column">
+            <div class="cell-label">Institution</div>
+            <div class="cell-content">
+              <i class="bi bi-building degree-icon" aria-hidden="true"></i>
+              <span>{{ edu.institution }}</span>
+            </div>
+          </div>
+
+          <div class="table-cell location-column">
+            <div class="cell-label">Location</div>
+            <div class="cell-content">
+              <i class="bi bi-geo-alt-fill degree-icon" aria-hidden="true"></i>
+              <span>{{ edu.location }}</span>
+            </div>
+          </div>
+
+          <div class="table-cell period-column">
+            <div class="cell-label">Period</div>
+            <div class="cell-content period-content">
+              <span class="period-dates">{{ edu.startDate }} - {{ edu.endDate }}</span>
+              <span class="period-duration" *ngIf="edu.duration">({{ edu.duration }})</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

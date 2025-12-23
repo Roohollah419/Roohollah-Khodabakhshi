@@ -40,6 +40,12 @@ export const routes: Routes = [
         loadComponent: async () =>
           await import('./features/contact/contact.component'),
       },
+      {
+        path: 'education',
+        title: 'Education',
+        loadComponent: async () =>
+          await import('./features/education/education.component'),
+      },
     ],
   },
 ];

@@ -1,28 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
-
-interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  testimonialText: string;
-  initials: string;
-  featured?: boolean;
-  ariaLabel?: string;
-  socialLinks?: {
-    linkedin?: string;
-    twitter?: string;
-    github?: string;
-    email?: string;
-  };
-}
-
-interface TestimonialsContent {
-  heading: string;
-  subheading?: string;
-}
+import { Testimonial, TestimonialsContent } from '../../core/models/testimonials.models';
 
 @Component({
   selector: 'app-testimonials',

@@ -1,24 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-interface StatisticItem {
-  icon: string;           // Bootstrap icon class (e.g., 'bi-microsoft-teams')
-  value: number;
-  label: string;
-  ariaLabel?: string;     // Optional for accessibility
-}
-
-interface StatisticSlide {
-  id: number;
-  items: StatisticItem[];
-}
-
-interface AboutMeContent {
-  heading: string;
-  introduction: string;
-  imageUrl: string;
-  imageAlt: string;
-}
+import { AboutMeContent, StatisticItem, StatisticSlide } from '../../core/models/about-me.models';
 
 @Component({
   selector: 'app-about-me',

@@ -1,42 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
-
-enum TechnologyCategory {
-  BACKEND = 'Backend',
-  FRONTEND = 'Frontend',
-  DATABASE = 'Database',
-  DEVOPS = 'DevOps',
-  FRAMEWORK = 'Framework',
-  METHODOLOGY = 'Methodology'
-}
-
-interface Technology {
-  name: string;
-  category: TechnologyCategory;
-  color: string;
-  icon?: string;
-}
-
-interface WorkExperience {
-  id: string;
-  company: string;
-  location: string;
-  role: string;
-  startDate: string;
-  endDate: string;
-  duration?: string;
-  achievements: string[];
-  technologies: Technology[];
-  featured?: boolean;
-  ariaLabel?: string;
-  order: number;
-}
-
-interface WorksContent {
-  heading: string;
-  subheading?: string;
-}
+import { Technology, TechnologyCategory, WorkExperience, WorksContent } from '../../core/models/works.models';
 
 @Component({
   selector: 'app-works',

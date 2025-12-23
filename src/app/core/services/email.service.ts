@@ -1,17 +1,7 @@
 import { Injectable } from '@angular/core';
 import emailjs from '@emailjs/browser';
 import { environment } from '../../../environments/environment';
-
-export interface EmailRequest {
-  from_name: string;
-  from_email: string;
-  message: string;
-}
-
-export interface EmailResponse {
-  success: boolean;
-  message: string;
-}
+import { EmailRequest, EmailResponse } from '../models/email.models';
 
 @Injectable({
   providedIn: 'root'

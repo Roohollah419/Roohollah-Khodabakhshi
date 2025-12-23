@@ -1,34 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-enum SkillCategory {
-  BACKEND = 'Backend',
-  FRONTEND = 'Frontend',
-  DATABASE = 'Database',
-  LANGUAGES = 'Languages',
-  DEVOPS = 'DevOps'
-}
-
-interface Skill {
-  id: string;
-  name: string;
-  proficiency: number;
-  icon: string;
-  category: SkillCategory;
-  ariaLabel?: string;
-}
-
-interface SkillGroup {
-  category: SkillCategory;
-  categoryIcon: string;
-  categoryColor: string;
-  skills: Skill[];
-}
-
-interface SkillsContent {
-  heading: string;
-  subheading?: string;
-}
+import { Skill, SkillCategory, SkillGroup, SkillsContent } from '../../core/models/skills.models';
 
 @Component({
   selector: 'app-skills',

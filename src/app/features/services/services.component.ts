@@ -1,43 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
-
-enum ServiceCategory {
-  BACKEND = 'Backend',
-  FRONTEND = 'Frontend',
-  DATABASE = 'Database',
-  CONSULTING = 'Consulting',
-  DEVOPS = 'DevOps'
-}
-
-enum ServiceLevel {
-  CORE = 'Core Service',
-  SPECIALIZED = 'Specialized',
-  CONSULTING = 'Consulting'
-}
-
-interface TechnologyTag {
-  name: string;
-  icon?: string;
-}
-
-interface Service {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  category: ServiceCategory;
-  categoryColor: string;
-  technologies: TechnologyTag[];
-  level: ServiceLevel;
-  featured?: boolean;
-  ariaLabel?: string;
-}
-
-interface ServicesContent {
-  heading: string;
-  subheading?: string;
-}
+import { Service, ServiceCategory, ServiceLevel, ServicesContent, TechnologyTag } from '../../core/models/services.models';
 
 @Component({
   selector: 'app-services',

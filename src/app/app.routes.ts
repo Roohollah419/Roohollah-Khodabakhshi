@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { passwordGuard } from './core/guards/password.guard';
 
 export const routes: Routes = [
   {
@@ -55,6 +56,7 @@ export const routes: Routes = [
       {
         path: '419',
         title: 'Lucky Number',
+        canActivate: [passwordGuard],
         loadComponent: async () =>
           await import('./features/lucky-number/lucky-number.component'),
       },

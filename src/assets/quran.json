@@ -1,0 +1,2657 @@
+[
+    {
+        "index": 1,
+        "title": "Al-Fatiha",
+        "surahName": "Al-Faatiha",
+        "surahNameArabic": "الفاتحة",
+        "surahNameArabicLong": "سُورَةُ ٱلْفَاتِحَةِ",
+        "surahNameTranslation": "The Opening",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 7,
+        "juz": [
+            {
+                "index": "01",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ],
+        "pages": "1",
+        "recitationCount": 0
+    },
+    {
+        "index": 2,
+        "title": "Al-Baqara",
+        "surahName": "Al-Baqara",
+        "surahNameArabic": "البقرة",
+        "surahNameArabicLong": "سورة البقرة",
+        "surahNameTranslation": "The Cow",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 286,
+        "juz": [
+            {
+                "index": "01",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_141"
+                }
+            },
+            {
+                "index": "02",
+                "verse": {
+                    "start": "verse_142",
+                    "end": "verse_252"
+                }
+            },
+            {
+                "index": "03",
+                "verse": {
+                    "start": "verse_253",
+                    "end": "verse_286"
+                }
+            }
+        ],
+        "pages": "2",
+        "recitationCount": 0
+    },
+    {
+        "index": 3,
+        "title": "Aal-Imran",
+        "surahName": "Aal-i-Imraan",
+        "surahNameArabic": "آل عمران",
+        "surahNameArabicLong": "سورة آل عمران",
+        "surahNameTranslation": "The Family of Imraan",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 200,
+        "juz": [
+            {
+                "index": "03",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "04",
+                "verse": {
+                    "start": "verse_93",
+                    "end": "verse_200"
+                }
+            }
+        ],
+        "pages": "45",
+        "recitationCount": 0
+    },
+    {
+        "index": 4,
+        "title": "An-Nisaa'",
+        "surahName": "An-Nisaa",
+        "surahNameArabic": "النساء",
+        "surahNameArabicLong": "سورة النساء",
+        "surahNameTranslation": "The Women",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 176,
+        "juz": [
+            {
+                "index": "04",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_23"
+                }
+            },
+            {
+                "index": "05",
+                "verse": {
+                    "start": "verse_24",
+                    "end": "verse_147"
+                }
+            },
+            {
+                "index": "06",
+                "verse": {
+                    "start": "verse_148",
+                    "end": "verse_176"
+                }
+            }
+        ],
+        "pages": "69",
+        "recitationCount": 0
+    },
+    {
+        "index": 5,
+        "title": "Al-Ma'ida",
+        "surahName": "Al-Maaida",
+        "surahNameArabic": "المائدة",
+        "surahNameArabicLong": "سورة المائدة",
+        "surahNameTranslation": "The Table",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 120,
+        "juz": [
+            {
+                "index": "06",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_81"
+                }
+            },
+            {
+                "index": "07",
+                "verse": {
+                    "start": "verse_82",
+                    "end": "verse_120"
+                }
+            }
+        ],
+        "pages": "95",
+        "recitationCount": 0
+    },
+    {
+        "index": 6,
+        "title": "Al-An'am",
+        "surahName": "Al-An'aam",
+        "surahNameArabic": "الأنعام",
+        "surahNameArabicLong": "سورة الأنعام",
+        "surahNameTranslation": "The Cattle",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 165,
+        "juz": [
+            {
+                "index": "07",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_110"
+                }
+            },
+            {
+                "index": "08",
+                "verse": {
+                    "start": "verse_111",
+                    "end": "verse_165"
+                }
+            }
+        ],
+        "pages": "115",
+        "recitationCount": 0
+    },
+    {
+        "index": 7,
+        "title": "Al-A'raf",
+        "surahName": "Al-A'raaf",
+        "surahNameArabic": "الأعراف",
+        "surahNameArabicLong": "سورة الأعراف",
+        "surahNameTranslation": "The Heights",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 206,
+        "juz": [
+            {
+                "index": "08",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_87"
+                }
+            },
+            {
+                "index": "09",
+                "verse": {
+                    "start": "verse_88",
+                    "end": "verse_206"
+                }
+            }
+        ],
+        "pages": "136",
+        "recitationCount": 0
+    },
+    {
+        "index": 8,
+        "title": "Al-Anfal",
+        "surahName": "Al-Anfaal",
+        "surahNameArabic": "الأنفال",
+        "surahNameArabicLong": "سورة الأنفال",
+        "surahNameTranslation": "The Spoils of War",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 75,
+        "juz": [
+            {
+                "index": "09",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            },
+            {
+                "index": "10",
+                "verse": {
+                    "start": "verse_41",
+                    "end": "verse_75"
+                }
+            }
+        ],
+        "pages": "160",
+        "recitationCount": 0
+    },
+    {
+        "index": 9,
+        "title": "Al-Tawba",
+        "surahName": "At-Tawba",
+        "surahNameArabic": "التوبة",
+        "surahNameArabicLong": "سورة التوبة",
+        "surahNameTranslation": "The Repentance",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 129,
+        "juz": [
+            {
+                "index": "10",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_93",
+                    "end": "verse_129"
+                }
+            }
+        ],
+        "pages": "169",
+        "recitationCount": 0
+    },
+    {
+        "index": 10,
+        "title": "Yunus",
+        "surahName": "Yunus",
+        "surahNameArabic": "يونس",
+        "surahNameArabicLong": "سورة يونس",
+        "surahNameTranslation": "Jonas",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 109,
+        "juz": [
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_109"
+                }
+            }
+        ],
+        "pages": "187",
+        "recitationCount": 0
+    },
+    {
+        "index": 11,
+        "title": "Hud",
+        "surahName": "Hud",
+        "surahNameArabic": "هود",
+        "surahNameArabicLong": "سورة هود",
+        "surahNameTranslation": "Hud",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 123,
+        "juz": [
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            },
+            {
+                "index": "12",
+                "verse": {
+                    "start": "verse_6",
+                    "end": "verse_123"
+                }
+            }
+        ],
+        "pages": "199",
+        "recitationCount": 0
+    },
+    {
+        "index": 12,
+        "title": "Yusuf",
+        "surahName": "Yusuf",
+        "surahNameArabic": "يوسف",
+        "surahNameArabicLong": "سورة يوسف",
+        "surahNameTranslation": "Joseph",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 111,
+        "juz": [
+            {
+                "index": "12",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            },
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_53",
+                    "end": "verse_111"
+                }
+            }
+        ],
+        "pages": "212",
+        "recitationCount": 0
+    },
+    {
+        "index": 13,
+        "title": "Ar-Ra'd",
+        "surahName": "Ar-Ra'd",
+        "surahNameArabic": "الرعد",
+        "surahNameArabicLong": "سورة الرعد",
+        "surahNameTranslation": "The Thunder",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 43,
+        "juz": [
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_43"
+                }
+            }
+        ],
+        "pages": "225",
+        "recitationCount": 0
+    },
+    {
+        "index": 14,
+        "title": "Ibrahim",
+        "surahName": "Ibrahim",
+        "surahNameArabic": "ابراهيم",
+        "surahNameArabicLong": "سورة ابراهيم",
+        "surahNameTranslation": "Abraham",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 52,
+        "juz": [
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+        "pages": "231",
+        "recitationCount": 0
+    },
+    {
+        "index": 15,
+        "title": "Al-Hijr",
+        "surahName": "Al-Hijr",
+        "surahNameArabic": "الحجر",
+        "surahNameArabicLong": "سورة الحجر",
+        "surahNameTranslation": "The Rock",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 99,
+        "juz": [
+            {
+                "index": "14",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_99"
+                }
+            }
+        ],
+        "pages": "237",
+        "recitationCount": 0
+    },
+    {
+        "index": 16,
+        "title": "An-Nahl",
+        "surahName": "An-Nahl",
+        "surahNameArabic": "النحل",
+        "surahNameArabicLong": "سورة النحل",
+        "surahNameTranslation": "The Bee",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 128,
+        "juz": [
+            {
+                "index": "14",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_128"
+                }
+            }
+        ],
+        "pages": "242",
+        "recitationCount": 0
+    },
+    {
+        "index": 17,
+        "title": "Al-Israa",
+        "surahName": "Al-Israa",
+        "surahNameArabic": "الإسراء",
+        "surahNameArabicLong": "سورة الإسراء",
+        "surahNameTranslation": "The Night Journey",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 111,
+        "juz": [
+            {
+                "index": "15",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_111"
+                }
+            }
+        ],
+        "pages": "255",
+        "recitationCount": 0
+    },
+    {
+        "index": 18,
+        "title": "Al-Kahf",
+        "surahName": "Al-Kahf",
+        "surahNameArabic": "الكهف",
+        "surahNameArabicLong": "سورة الكهف",
+        "surahNameTranslation": "The Cave",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 110,
+        "juz": [
+            {
+                "index": "15",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_74"
+                }
+            },
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_75",
+                    "end": "verse_110"
+                }
+            }
+        ],
+        "pages": "266",
+        "recitationCount": 0
+    },
+    {
+        "index": 19,
+        "title": "Maryam",
+        "surahName": "Maryam",
+        "surahNameArabic": "مريم",
+        "surahNameArabicLong": "سورة مريم",
+        "surahNameTranslation": "Mary",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 98,
+        "juz": [
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_98"
+                }
+            }
+        ],
+        "pages": "277",
+        "recitationCount": 0
+    },
+    {
+        "index": 20,
+        "title": "Ta-Ha",
+        "surahName": "Taa-Haa",
+        "surahNameArabic": "طه",
+        "surahNameArabicLong": "سورة طه",
+        "surahNameTranslation": "Taa-Haa",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 135,
+        "juz": [
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_135"
+                }
+            }
+        ],
+        "pages": "284",
+        "recitationCount": 0
+    },
+    {
+        "index": 21,
+        "title": "Al-Anbiya",
+        "surahName": "Al-Anbiyaa",
+        "surahNameArabic": "الأنبياء",
+        "surahNameArabicLong": "سورة الأنبياء",
+        "surahNameTranslation": "The Prophets",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 112,
+        "juz": [
+            {
+                "index": "17",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_112"
+                }
+            }
+        ],
+        "pages": "294",
+        "recitationCount": 0
+    },
+    {
+        "index": 22,
+        "title": "Al-Hajj",
+        "surahName": "Al-Hajj",
+        "surahNameArabic": "الحج",
+        "surahNameArabicLong": "سورة الحج",
+        "surahNameTranslation": "The Pilgrimage",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 78,
+        "juz": [
+            {
+                "index": "17",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ],
+        "pages": "302",
+        "recitationCount": 0
+    },
+    {
+        "index": 23,
+        "title": "Al-Muminun",
+        "surahName": "Al-Muminoon",
+        "surahNameArabic": "المؤمنون",
+        "surahNameArabicLong": "سورة المؤمنون",
+        "surahNameTranslation": "The Believers",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 118,
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_118"
+                }
+            }
+        ],
+        "pages": "311",
+        "recitationCount": 0
+    },
+    {
+        "index": 24,
+        "title": "An-Nur",
+        "surahName": "An-Noor",
+        "surahNameArabic": "النور",
+        "surahNameArabicLong": "سورة النور",
+        "surahNameTranslation": "The Light",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 64,
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_64"
+                }
+            }
+        ],
+        "pages": "319",
+        "recitationCount": 0
+    },
+    {
+        "index": 25,
+        "title": "Al-Furqan",
+        "surahName": "Al-Furqaan",
+        "surahNameArabic": "الفرقان",
+        "surahNameArabicLong": "سورة الفرقان",
+        "surahNameTranslation": "The Criterion",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 77,
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            },
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_21",
+                    "end": "verse_77"
+                }
+            }
+        ],
+        "pages": "329",
+        "recitationCount": 0
+    },
+    {
+        "index": 26,
+        "title": "Ash-Shuara",
+        "surahName": "Ash-Shu'araa",
+        "surahNameArabic": "الشعراء",
+        "surahNameArabicLong": "سورة الشعراء",
+        "surahNameTranslation": "The Poets",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 227,
+        "juz": [
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_227"
+                }
+            }
+        ],
+        "pages": "335",
+        "recitationCount": 0
+    },
+    {
+        "index": 27,
+        "title": "An-Naml",
+        "surahName": "An-Naml",
+        "surahNameArabic": "النمل",
+        "surahNameArabicLong": "سورة النمل",
+        "surahNameTranslation": "The Ant",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 93,
+        "juz": [
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            },
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_56",
+                    "end": "verse_93"
+                }
+            }
+        ],
+        "pages": "345",
+        "recitationCount": 0
+    },
+    {
+        "index": 28,
+        "title": "Al-Qasas",
+        "surahName": "Al-Qasas",
+        "surahNameArabic": "القصص",
+        "surahNameArabicLong": "سورة القصص",
+        "surahNameTranslation": "The Stories",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 88,
+        "juz": [
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ],
+        "pages": "354",
+        "recitationCount": 0
+    },
+    {
+        "index": 29,
+        "title": "Al-Ankabut",
+        "surahName": "Al-Ankaboot",
+        "surahNameArabic": "العنكبوت",
+        "surahNameArabicLong": "سورة العنكبوت",
+        "surahNameTranslation": "The Spider",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 69,
+        "juz": [
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            },
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_46",
+                    "end": "verse_69"
+                }
+            }
+        ],
+        "pages": "364",
+        "recitationCount": 0
+    },
+    {
+        "index": 30,
+        "title": "Ar-Rum",
+        "surahName": "Ar-Room",
+        "surahNameArabic": "الروم",
+        "surahNameArabicLong": "سورة الروم",
+        "surahNameTranslation": "The Romans",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 60,
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_60"
+                }
+            }
+        ],
+        "pages": "371",
+        "recitationCount": 0
+    },
+    {
+        "index": 31,
+        "title": "Luqman",
+        "surahName": "Luqman",
+        "surahNameArabic": "لقمان",
+        "surahNameArabicLong": "سورة لقمان",
+        "surahNameTranslation": "Luqman",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 34,
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_34"
+                }
+            }
+        ],
+        "pages": "377",
+        "recitationCount": 0
+    },
+    {
+        "index": 32,
+        "title": "As-Sajdah",
+        "surahName": "As-Sajda",
+        "surahNameArabic": "السجدة",
+        "surahNameArabicLong": "سورة السجدة",
+        "surahNameTranslation": "The Prostration",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 30,
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+        "pages": "381",
+        "recitationCount": 0
+    },
+    {
+        "index": 33,
+        "title": "Al-Ahzab",
+        "surahName": "Al-Ahzaab",
+        "surahNameArabic": "الأحزاب",
+        "surahNameArabicLong": "سورة الأحزاب",
+        "surahNameTranslation": "The Clans",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 73,
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_31",
+                    "end": "verse_73"
+                }
+            }
+        ],
+        "pages": "383",
+        "recitationCount": 0
+    },
+    {
+        "index": 34,
+        "title": "Saba",
+        "surahName": "Saba",
+        "surahNameArabic": "سبإ",
+        "surahNameArabicLong": "سورة سَبَأ",
+        "surahNameTranslation": "Sheba",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 54,
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_54"
+                }
+            }
+        ],
+        "pages": "393",
+        "recitationCount": 0
+    },
+    {
+        "index": 35,
+        "title": "Fatir",
+        "surahName": "Faatir",
+        "surahNameArabic": "فاطر",
+        "surahNameArabicLong": "سورة فاطر",
+        "surahNameTranslation": "The Originator",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 45,
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ],
+        "pages": "399",
+        "recitationCount": 0
+    },
+    {
+        "index": 36,
+        "title": "Yasin",
+        "surahName": "Yaseen",
+        "surahNameArabic": "يس",
+        "surahNameArabicLong": "سورة يس",
+        "surahNameTranslation": "Yaseen",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 83,
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_27"
+                }
+            },
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_28",
+                    "end": "verse_83"
+                }
+            }
+        ],
+        "pages": "404",
+        "recitationCount": 0
+    },
+    {
+        "index": 37,
+        "title": "As-Saffat",
+        "surahName": "As-Saaffaat",
+        "surahNameArabic": "الصافات",
+        "surahNameArabicLong": "سورة الصافات",
+        "surahNameTranslation": "Those drawn up in Ranks",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 182,
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_182"
+                }
+            }
+        ],
+        "pages": "410",
+        "recitationCount": 0
+    },
+    {
+        "index": 38,
+        "title": "Sad",
+        "surahName": "Saad",
+        "surahNameArabic": "ص",
+        "surahNameArabicLong": "سورة ص",
+        "surahNameTranslation": "The letter Saad",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 88,
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ],
+        "pages": "417",
+        "recitationCount": 0
+    },
+    {
+        "index": 39,
+        "title": "Az-Zumar",
+        "surahName": "Az-Zumar",
+        "surahNameArabic": "الزمر",
+        "surahNameArabicLong": "سورة الزمر",
+        "surahNameTranslation": "The Groups",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 75,
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            },
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_32",
+                    "end": "verse_75"
+                }
+            }
+        ],
+        "pages": "422",
+        "recitationCount": 0
+    },
+    {
+        "index": 40,
+        "title": "Ghafir",
+        "surahName": "Ghafir",
+        "surahNameArabic": "غافر",
+        "surahNameArabicLong": "سورة غافر",
+        "surahNameTranslation": "The Forgiver",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 85,
+        "juz": [
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_85"
+                }
+            }
+        ],
+        "pages": "431",
+        "recitationCount": 0
+    },
+    {
+        "index": 41,
+        "title": "Fussilat",
+        "surahName": "Fussilat",
+        "surahNameArabic": "فصلت",
+        "surahNameArabicLong": "سورة فصلت",
+        "surahNameTranslation": "Explained in detail",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 54,
+        "juz": [
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            },
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_47",
+                    "end": "verse_54"
+                }
+            }
+        ],
+        "pages": "439",
+        "recitationCount": 0
+    },
+    {
+        "index": 42,
+        "title": "Ash-Shura",
+        "surahName": "Ash-Shura",
+        "surahNameArabic": "الشورى",
+        "surahNameArabicLong": "سورة الشورى",
+        "surahNameTranslation": "Consultation",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 53,
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_53"
+                }
+            }
+        ],
+        "pages": "445",
+        "recitationCount": 0
+    },
+    {
+        "index": 43,
+        "title": "Az-Zukhruf",
+        "surahName": "Az-Zukhruf",
+        "surahNameArabic": "الزخرف",
+        "surahNameArabicLong": "سورة الزخرف",
+        "surahNameTranslation": "Ornaments of gold",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 89,
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_89"
+                }
+            }
+        ],
+        "pages": "451",
+        "recitationCount": 0
+    },
+    {
+        "index": 44,
+        "title": "Ad-Dukhan",
+        "surahName": "Ad-Dukhaan",
+        "surahNameArabic": "الدخان",
+        "surahNameArabicLong": "سورة الدخان",
+        "surahNameTranslation": "The Smoke",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 59,
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_59"
+                }
+            }
+        ],
+        "pages": "457",
+        "recitationCount": 0
+    },
+    {
+        "index": 45,
+        "title": "Al-Jathiya",
+        "surahName": "Al-Jaathiya",
+        "surahNameArabic": "الجاثية",
+        "surahNameArabicLong": "سورة الجاثية",
+        "surahNameTranslation": "Crouching",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 37,
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_37"
+                }
+            }
+        ],
+        "pages": "460",
+        "recitationCount": 0
+    },
+    {
+        "index": 46,
+        "title": "Al-Ahqaf",
+        "surahName": "Al-Ahqaf",
+        "surahNameArabic": "الأحقاف",
+        "surahNameArabicLong": "سورة الأحقاف",
+        "surahNameTranslation": "The Dunes",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 35,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_35"
+                }
+            }
+        ],
+        "pages": "464",
+        "recitationCount": 0
+    },
+    {
+        "index": 47,
+        "title": "Muhammad",
+        "surahName": "Muhammad",
+        "surahNameArabic": "محمد",
+        "surahNameArabicLong": "سورة محمد",
+        "surahNameTranslation": "Muhammad",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 38,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_38"
+                }
+            }
+        ],
+        "pages": "468",
+        "recitationCount": 0
+    },
+    {
+        "index": 48,
+        "title": "Al-Fath",
+        "surahName": "Al-Fath",
+        "surahNameArabic": "الفتح",
+        "surahNameArabicLong": "سورة الفتح",
+        "surahNameTranslation": "The Victory",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 29,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+        "pages": "472",
+        "recitationCount": 0
+    },
+    {
+        "index": 49,
+        "title": "Al-Hujurat",
+        "surahName": "Al-Hujuraat",
+        "surahNameArabic": "الحجرات",
+        "surahNameArabicLong": "سورة الحجرات",
+        "surahNameTranslation": "The Inner Apartments",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 18,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ],
+        "pages": "477",
+        "recitationCount": 0
+    },
+    {
+        "index": 50,
+        "title": "Qaf",
+        "surahName": "Qaaf",
+        "surahNameArabic": "ق",
+        "surahNameArabicLong": "سورة ق",
+        "surahNameTranslation": "The letter Qaaf",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 45,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ],
+        "pages": "479",
+        "recitationCount": 0
+    },
+    {
+        "index": 51,
+        "title": "Az-Zariyat",
+        "surahName": "Adh-Dhaariyat",
+        "surahNameArabic": "الذاريات",
+        "surahNameArabicLong": "سورة الذاريات",
+        "surahNameTranslation": "The Winnowing Winds",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 60,
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_31",
+                    "end": "verse_60"
+                }
+            }
+        ],
+        "pages": "482",
+        "recitationCount": 0
+    },
+    {
+        "index": 52,
+        "title": "At-Tur",
+        "surahName": "At-Tur",
+        "surahNameArabic": "الطور",
+        "surahNameArabicLong": "سورة الطور",
+        "surahNameTranslation": "The Mount",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 49,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_49"
+                }
+            }
+        ],
+        "pages": "485",
+        "recitationCount": 0
+    },
+    {
+        "index": 53,
+        "title": "An-Najm",
+        "surahName": "An-Najm",
+        "surahNameArabic": "النجم",
+        "surahNameArabicLong": "سورة النجم",
+        "surahNameTranslation": "The Star",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 62,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_62"
+                }
+            }
+        ],
+        "pages": "487",
+        "recitationCount": 0
+    },
+    {
+        "index": 54,
+        "title": "Al-Qamar",
+        "surahName": "Al-Qamar",
+        "surahNameArabic": "القمر",
+        "surahNameArabicLong": "سورة القمر",
+        "surahNameTranslation": "The Moon",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 55,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            }
+        ],
+        "pages": "490",
+        "recitationCount": 0
+    },
+    {
+        "index": 55,
+        "title": "Ar-Rahman",
+        "surahName": "Ar-Rahmaan",
+        "surahNameArabic": "الرحمن",
+        "surahNameArabicLong": "سورة الرحمن",
+        "surahNameTranslation": "The Beneficent",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 78,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ],
+        "pages": "493",
+        "recitationCount": 0
+    },
+    {
+        "index": 56,
+        "title": "Al-Waqia",
+        "surahName": "Al-Waaqia",
+        "surahNameArabic": "الواقعة",
+        "surahNameArabicLong": "سورة الواقعة",
+        "surahNameTranslation": "The Inevitable",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 96,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_96"
+                }
+            }
+        ],
+        "pages": "496",
+        "recitationCount": 0
+    },
+    {
+        "index": 57,
+        "title": "Al-Hadid",
+        "surahName": "Al-Hadid",
+        "surahNameArabic": "الحديد",
+        "surahNameArabicLong": "سورة الحديد",
+        "surahNameTranslation": "The Iron",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 29,
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+        "pages": "499",
+        "recitationCount": 0
+    },
+    {
+        "index": 58,
+        "title": "Al-Mujadilah",
+        "surahName": "Al-Mujaadila",
+        "surahNameArabic": "المجادلة",
+        "surahNameArabicLong": "سورة المجادلة",
+        "surahNameTranslation": "The Pleading Woman",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 22,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ],
+        "pages": "504",
+        "recitationCount": 0
+    },
+    {
+        "index": 59,
+        "title": "Al-Hashr",
+        "surahName": "Al-Hashr",
+        "surahNameArabic": "الحشر",
+        "surahNameArabicLong": "سورة الحشر",
+        "surahNameTranslation": "The Exile",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 24,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_24"
+                }
+            }
+        ],
+        "pages": "507",
+        "recitationCount": 0
+    },
+    {
+        "index": 60,
+        "title": "Al-Mumtahinah",
+        "surahName": "Al-Mumtahana",
+        "surahNameArabic": "الممتحنة",
+        "surahNameArabicLong": "سورة الممتحنة",
+        "surahNameTranslation": "She that is to be examined",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 13,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_13"
+                }
+            }
+        ],
+        "pages": "510",
+        "recitationCount": 0
+    },
+    {
+        "index": 61,
+        "title": "As-Saff",
+        "surahName": "As-Saff",
+        "surahNameArabic": "الصف",
+        "surahNameArabicLong": "سورة الصف",
+        "surahNameTranslation": "The Ranks",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 14,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_14"
+                }
+            }
+        ],
+        "pages": "513",
+        "recitationCount": 0
+    },
+    {
+        "index": 62,
+        "title": "Al-Jumu'ah",
+        "surahName": "Al-Jumu'a",
+        "surahNameArabic": "الجمعة",
+        "surahNameArabicLong": "سورة الجمعة",
+        "surahNameTranslation": "Friday",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 11,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+        "pages": "515",
+        "recitationCount": 0
+    },
+    {
+        "index": 63,
+        "title": "Al-Munafiqun",
+        "surahName": "Al-Munaafiqoon",
+        "surahNameArabic": "المنافقون",
+        "surahNameArabicLong": "سورة المنافقون",
+        "surahNameTranslation": "The Hypocrites",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 11,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+        "pages": "516",
+        "recitationCount": 0
+    },
+    {
+        "index": 64,
+        "title": "At-Taghabun",
+        "surahName": "At-Taghaabun",
+        "surahNameArabic": "التغابن",
+        "surahNameArabicLong": "سورة التغابن",
+        "surahNameTranslation": "Mutual Disillusion",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 18,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ],
+        "pages": "518",
+        "recitationCount": 0
+    },
+    {
+        "index": 65,
+        "title": "At-Talaq",
+        "surahName": "At-Talaaq",
+        "surahNameArabic": "الطلاق",
+        "surahNameArabicLong": "سورة الطلاق",
+        "surahNameTranslation": "Divorce",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 12,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ],
+        "pages": "520",
+        "recitationCount": 0
+    },
+    {
+        "index": 66,
+        "title": "At-Tahrim",
+        "surahName": "At-Tahrim",
+        "surahNameArabic": "التحريم",
+        "surahNameArabicLong": "سورة التحريم",
+        "surahNameTranslation": "The Prohibition",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 12,
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ],
+        "pages": "522",
+        "recitationCount": 0
+    },
+    {
+        "index": 67,
+        "title": "Al-Mulk",
+        "surahName": "Al-Mulk",
+        "surahNameArabic": "الملك",
+        "surahNameArabicLong": "سورة الملك",
+        "surahNameTranslation": "The Sovereignty",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 30,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+        "pages": "524",
+        "recitationCount": 0
+    },
+    {
+        "index": 68,
+        "title": "Al-Qalam",
+        "surahName": "Al-Qalam",
+        "surahNameArabic": "القلم",
+        "surahNameArabicLong": "سورة القلم",
+        "surahNameTranslation": "The Pen",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 52,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+        "pages": "526",
+        "recitationCount": 0
+    },
+    {
+        "index": 69,
+        "title": "Al-Haqqah",
+        "surahName": "Al-Haaqqa",
+        "surahNameArabic": "الحاقة",
+        "surahNameArabicLong": "سورة الحاقة",
+        "surahNameTranslation": "The Reality",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 52,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+        "pages": "529",
+        "recitationCount": 0
+    },
+    {
+        "index": 70,
+        "title": "Al-Ma'arij",
+        "surahName": "Al-Ma'aarij",
+        "surahNameArabic": "المعارج",
+        "surahNameArabicLong": "سورة المعارج",
+        "surahNameTranslation": "The Ascending Stairways",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 44,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_44"
+                }
+            }
+        ],
+        "pages": "531",
+        "recitationCount": 0
+    },
+    {
+        "index": 71,
+        "title": "Nuh",
+        "surahName": "Nooh",
+        "surahNameArabic": "نوح",
+        "surahNameArabicLong": "سورة نوح",
+        "surahNameTranslation": "Noah",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 28,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ],
+        "pages": "533",
+        "recitationCount": 0
+    },
+    {
+        "index": 72,
+        "title": "Al-Jinn",
+        "surahName": "Al-Jinn",
+        "surahNameArabic": "الجن",
+        "surahNameArabicLong": "سورة الجن",
+        "surahNameTranslation": "The Jinn",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 28,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ],
+        "pages": "534",
+        "recitationCount": 0
+    },
+    {
+        "index": 73,
+        "title": "Al-Muzzammil",
+        "surahName": "Al-Muzzammil",
+        "surahNameArabic": "المزمل",
+        "surahNameArabicLong": "سورة المزمل",
+        "surahNameTranslation": "The Enshrouded One",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 20,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ],
+        "pages": "537",
+        "recitationCount": 0
+    },
+    {
+        "index": 74,
+        "title": "Al-Muddaththir",
+        "surahName": "Al-Muddaththir",
+        "surahNameArabic": "المدثر",
+        "surahNameArabicLong": "سورة المدثر",
+        "surahNameTranslation": "The Cloaked One",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 56,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_56"
+                }
+            }
+        ],
+        "pages": "538",
+        "recitationCount": 0
+    },
+    {
+        "index": 75,
+        "title": "Al-Qiyamah",
+        "surahName": "Al-Qiyaama",
+        "surahNameArabic": "القيامة",
+        "surahNameArabicLong": "سورة القيامة",
+        "surahNameTranslation": "The Resurrection",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 40,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ],
+        "pages": "540",
+        "recitationCount": 0
+    },
+    {
+        "index": 76,
+        "title": "Al-Insan",
+        "surahName": "Al-Insaan",
+        "surahNameArabic": "الانسان",
+        "surahNameArabicLong": "سورة الانسان",
+        "surahNameTranslation": "Man",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 31,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            }
+        ],
+        "pages": "542",
+        "recitationCount": 0
+    },
+    {
+        "index": 77,
+        "title": "Al-Mursalat",
+        "surahName": "Al-Mursalaat",
+        "surahNameArabic": "المرسلات",
+        "surahNameArabicLong": "سورة المرسلات",
+        "surahNameTranslation": "The Emissaries",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 50,
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_50"
+                }
+            }
+        ],
+        "pages": "544",
+        "recitationCount": 0
+    },
+    {
+        "index": 78,
+        "title": "An-Naba",
+        "surahName": "An-Naba",
+        "surahNameArabic": "النبإ",
+        "surahNameArabicLong": "سورة النبأ",
+        "surahNameTranslation": "The Announcement",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 40,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ],
+        "pages": "545",
+        "recitationCount": 0
+    },
+    {
+        "index": 79,
+        "title": "An-Naziat",
+        "surahName": "An-Naazi'aat",
+        "surahNameArabic": "النازعات",
+        "surahNameArabicLong": "سورة النازعات",
+        "surahNameTranslation": "Those who drag forth",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 46,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            }
+        ],
+        "pages": "547",
+        "recitationCount": 0
+    },
+    {
+        "index": 80,
+        "title": "Abasa",
+        "surahName": "Abasa",
+        "surahNameArabic": "عبس",
+        "surahNameArabicLong": "سورة عبس",
+        "surahNameTranslation": "He frowned",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 42,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_42"
+                }
+            }
+        ],
+        "pages": "548",
+        "recitationCount": 0
+    },
+    {
+        "index": 81,
+        "title": "At-Takwir",
+        "surahName": "At-Takwir",
+        "surahNameArabic": "التكوير",
+        "surahNameArabicLong": "سورة التكوير",
+        "surahNameTranslation": "The Overthrowing",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 29,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+        "pages": "550",
+        "recitationCount": 0
+    },
+    {
+        "index": 82,
+        "title": "Al-Infitar",
+        "surahName": "Al-Infitaar",
+        "surahNameArabic": "الإنفطار",
+        "surahNameArabicLong": "سورة الإنفطار",
+        "surahNameTranslation": "The Cleaving",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 19,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+        "pages": "551",
+        "recitationCount": 0
+    },
+    {
+        "index": 83,
+        "title": "Al-Mutaffifin",
+        "surahName": "Al-Mutaffifin",
+        "surahNameArabic": "المطففين",
+        "surahNameArabicLong": "سورة المطففين",
+        "surahNameTranslation": "Defrauding",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 36,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_36"
+                }
+            }
+        ],
+        "pages": "552",
+        "recitationCount": 0
+    },
+    {
+        "index": 84,
+        "title": "Al-Inshiqaq",
+        "surahName": "Al-Inshiqaaq",
+        "surahNameArabic": "الإنشقاق",
+        "surahNameArabicLong": "سورة الإنشقاق",
+        "surahNameTranslation": "The Splitting Open",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 25,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_25"
+                }
+            }
+        ],
+        "pages": "553",
+        "recitationCount": 0
+    },
+    {
+        "index": 85,
+        "title": "Al-Buruj",
+        "surahName": "Al-Burooj",
+        "surahNameArabic": "البروج",
+        "surahNameArabicLong": "سورة البروج",
+        "surahNameTranslation": "The Constellations",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 22,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ],
+        "pages": "554",
+        "recitationCount": 0
+    },
+    {
+        "index": 86,
+        "title": "At-Tariq",
+        "surahName": "At-Taariq",
+        "surahNameArabic": "الطارق",
+        "surahNameArabicLong": "سورة الطارق",
+        "surahNameTranslation": "The Morning Star",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 17,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_17"
+                }
+            }
+        ],
+        "pages": "555",
+        "recitationCount": 0
+    },
+    {
+        "index": 87,
+        "title": "Al-Ala",
+        "surahName": "Al-A'laa",
+        "surahNameArabic": "الأعلى",
+        "surahNameArabicLong": "سورة الأعلى",
+        "surahNameTranslation": "The Most High",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 19,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+        "pages": "556",
+        "recitationCount": 0
+    },
+    {
+        "index": 88,
+        "title": "Al-Ghashiyah",
+        "surahName": "Al-Ghaashiya",
+        "surahNameArabic": "الغاشية",
+        "surahNameArabicLong": "سورة الغاشية",
+        "surahNameTranslation": "The Overwhelming",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 26,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_26"
+                }
+            }
+        ],
+        "pages": "556",
+        "recitationCount": 0
+    },
+    {
+        "index": 89,
+        "title": "Al-Fajr",
+        "surahName": "Al-Fajr",
+        "surahNameArabic": "الفجر",
+        "surahNameArabicLong": "سورة الفجر",
+        "surahNameTranslation": "The Dawn",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 30,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+        "pages": "557",
+        "recitationCount": 0
+    },
+    {
+        "index": 90,
+        "title": "Al-Balad",
+        "surahName": "Al-Balad",
+        "surahNameArabic": "البلد",
+        "surahNameArabicLong": "سورة البلد",
+        "surahNameTranslation": "The City",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 20,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ],
+        "pages": "559",
+        "recitationCount": 0
+    },
+    {
+        "index": 91,
+        "title": "Ash-Shams",
+        "surahName": "Ash-Shams",
+        "surahNameArabic": "الشمس",
+        "surahNameArabicLong": "سورة الشمس",
+        "surahNameTranslation": "The Sun",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 15,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_15"
+                }
+            }
+        ],
+        "pages": "559",
+        "recitationCount": 0
+    },
+    {
+        "index": 92,
+        "title": "Al-Lail",
+        "surahName": "Al-Lail",
+        "surahNameArabic": "الليل",
+        "surahNameArabicLong": "سورة الليل",
+        "surahNameTranslation": "The Night",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 21,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_21"
+                }
+            }
+        ],
+        "pages": "560",
+        "recitationCount": 0
+    },
+    {
+        "index": 93,
+        "title": "Ad-Duha",
+        "surahName": "Ad-Dhuhaa",
+        "surahNameArabic": "الضحى",
+        "surahNameArabicLong": "سورة الضحى",
+        "surahNameTranslation": "The Morning Hours",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 11,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+        "pages": "561",
+        "recitationCount": 0
+    },
+    {
+        "index": 94,
+        "title": "Ash-Sharh",
+        "surahName": "Ash-Sharh",
+        "surahNameArabic": "الشرح",
+        "surahNameArabicLong": "سورة الشرح",
+        "surahNameTranslation": "The Consolation",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 8,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+        "pages": "561",
+        "recitationCount": 0
+    },
+    {
+        "index": 95,
+        "title": "At-Tin",
+        "surahName": "At-Tin",
+        "surahNameArabic": "التين",
+        "surahNameArabicLong": "سورة التين",
+        "surahNameTranslation": "The Fig",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 8,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+        "pages": "562",
+        "recitationCount": 0
+    },
+    {
+        "index": 96,
+        "title": "Al-Alaq",
+        "surahName": "Al-Alaq",
+        "surahNameArabic": "العلق",
+        "surahNameArabicLong": "سورة العلق",
+        "surahNameTranslation": "The Clot",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 19,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+        "pages": "562",
+        "recitationCount": 0
+    },
+    {
+        "index": 97,
+        "title": "Al-Qadr",
+        "surahName": "Al-Qadr",
+        "surahNameArabic": "القدر",
+        "surahNameArabicLong": "سورة القدر",
+        "surahNameTranslation": "The Power, Fate",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 5,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+        "pages": "563",
+        "recitationCount": 0
+    },
+    {
+        "index": 98,
+        "title": "Al-Bayinah",
+        "surahName": "Al-Bayyina",
+        "surahNameArabic": "البينة",
+        "surahNameArabicLong": "سورة البينة",
+        "surahNameTranslation": "The Evidence",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 8,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+        "pages": "563",
+        "recitationCount": 0
+    },
+    {
+        "index": 99,
+        "title": "Az-Zalzalah",
+        "surahName": "Az-Zalzala",
+        "surahNameArabic": "الزلزلة",
+        "surahNameArabicLong": "سورة الزلزلة",
+        "surahNameTranslation": "The Earthquake",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 8,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+        "pages": "564",
+        "recitationCount": 0
+    },
+    {
+        "index": 100,
+        "title": "Al-Adiyat",
+        "surahName": "Al-Aadiyaat",
+        "surahNameArabic": "العاديات",
+        "surahNameArabicLong": "سورة العاديات",
+        "surahNameTranslation": "The Chargers",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 11,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+        "pages": "564",
+        "recitationCount": 0
+    },
+    {
+        "index": 101,
+        "title": "Al-Qariah",
+        "surahName": "Al-Qaari'a",
+        "surahNameArabic": "القارعة",
+        "surahNameArabicLong": "سورة القارعة",
+        "surahNameTranslation": "The Calamity",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 11,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+        "pages": "565",
+        "recitationCount": 0
+    },
+    {
+        "index": 102,
+        "title": "Al-Takathur",
+        "surahName": "At-Takaathur",
+        "surahNameArabic": "التكاثر",
+        "surahNameArabicLong": "سورة التكاثر",
+        "surahNameTranslation": "Competition",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 8,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+        "pages": "565",
+        "recitationCount": 0
+    },
+    {
+        "index": 103,
+        "title": "Al-Asr",
+        "surahName": "Al-Asr",
+        "surahNameArabic": "العصر",
+        "surahNameArabicLong": "سورة العصر",
+        "surahNameTranslation": "The Declining Day, Epoch",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 3,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+        "pages": "566",
+        "recitationCount": 0
+    },
+    {
+        "index": 104,
+        "title": "Al-Humazah",
+        "surahName": "Al-Humaza",
+        "surahNameArabic": "الهمزة",
+        "surahNameArabicLong": "سورة الهمزة",
+        "surahNameTranslation": "The Traducer",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 9,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_9"
+                }
+            }
+        ],
+        "pages": "566",
+        "recitationCount": 0
+    },
+    {
+        "index": 105,
+        "title": "Al-Fil",
+        "surahName": "Al-Fil",
+        "surahNameArabic": "الفيل",
+        "surahNameArabicLong": "سورة الفيل",
+        "surahNameTranslation": "The Elephant",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 5,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+        "pages": "566",
+        "recitationCount": 0
+    },
+    {
+        "index": 106,
+        "title": "Quraish",
+        "surahName": "Quraish",
+        "surahNameArabic": "قريش",
+        "surahNameArabicLong": "سورة قريش",
+        "surahNameTranslation": "Quraysh",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 4,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ],
+        "pages": "567",
+        "recitationCount": 0
+    },
+    {
+        "index": 107,
+        "title": "Al-Ma'un",
+        "surahName": "Al-Maa'un",
+        "surahNameArabic": "الماعون",
+        "surahNameArabicLong": "سورة الماعون",
+        "surahNameTranslation": "Almsgiving",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 7,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ],
+        "pages": "567",
+        "recitationCount": 0
+    },
+    {
+        "index": 108,
+        "title": "Al-Kauthar",
+        "surahName": "Al-Kawthar",
+        "surahNameArabic": "الكوثر",
+        "surahNameArabicLong": "سورة الكوثر",
+        "surahNameTranslation": "Abundance",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 3,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+        "pages": "567",
+        "recitationCount": 0
+    },
+    {
+        "index": 109,
+        "title": "Al-Kafirun",
+        "surahName": "Al-Kaafiroon",
+        "surahNameArabic": "الكافرون",
+        "surahNameArabicLong": "سورة الكافرون",
+        "surahNameTranslation": "The Disbelievers",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 6,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ],
+        "pages": "568",
+        "recitationCount": 0
+    },
+    {
+        "index": 110,
+        "title": "An-Nasr",
+        "surahName": "An-Nasr",
+        "surahNameArabic": "النصر",
+        "surahNameArabicLong": "سورة النصر",
+        "surahNameTranslation": "Divine Support",
+        "revelationPlace": "Madina",
+        "type": "Madaniyah",
+        "totalAyah": 3,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+        "pages": "568",
+        "recitationCount": 0
+    },
+    {
+        "index": 111,
+        "title": "Al-Masad",
+        "surahName": "Al-Masad",
+        "surahNameArabic": "المسد",
+        "surahNameArabicLong": "سورة المسد",
+        "surahNameTranslation": "The Palm Fibre",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 5,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+        "pages": "568",
+        "recitationCount": 0
+    },
+    {
+        "index": 112,
+        "title": "Al-Ikhlas",
+        "surahName": "Al-Ikhlaas",
+        "surahNameArabic": "الإخلاص",
+        "surahNameArabicLong": "سورة الإخلاص",
+        "surahNameTranslation": "Sincerity",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 4,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ],
+        "pages": "569",
+        "recitationCount": 0
+    },
+    {
+        "index": 113,
+        "title": "Al-Falaq",
+        "surahName": "Al-Falaq",
+        "surahNameArabic": "الفلق",
+        "surahNameArabicLong": "سورة الفلق",
+        "surahNameTranslation": "The Dawn",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 5,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+        "pages": "569",
+        "recitationCount": 0
+    },
+    {
+        "index": 114,
+        "title": "An-Nas",
+        "surahName": "An-Naas",
+        "surahNameArabic": "الناس",
+        "surahNameArabicLong": "سورة الناس",
+        "surahNameTranslation": "Mankind",
+        "revelationPlace": "Mecca",
+        "type": "Makkiyah",
+        "totalAyah": 6,
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ],
+        "pages": "569",
+        "recitationCount": 0
+    }
+]

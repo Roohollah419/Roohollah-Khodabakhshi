@@ -1,0 +1,141 @@
+/* Lucky Number Section */
+.lucky-number-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.lucky-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* Number Display */
+.number-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  animation: fadeInScale 0.5s ease-out;
+}
+
+.number-value {
+  font-size: 8rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 0 40px rgba(167, 139, 250, 0.8),
+               0 0 80px rgba(167, 139, 250, 0.6);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.number-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* Lucky Button */
+.lucky-button {
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  border: none;
+  color: white;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(167, 139, 250, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lucky-button:hover {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 48px rgba(167, 139, 250, 0.6);
+}
+
+.lucky-button:active {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.lucky-button i {
+  font-size: 2rem;
+  animation: rotate 2s linear infinite;
+}
+
+/* Animations */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .number-value {
+    font-size: 5rem;
+  }
+
+  .number-label {
+    font-size: 1.2rem;
+  }
+
+  .lucky-button {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+  }
+
+  .lucky-button i {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .number-value {
+    font-size: 4rem;
+  }
+
+  .number-label {
+    font-size: 1rem;
+  }
+
+  .lucky-button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+}

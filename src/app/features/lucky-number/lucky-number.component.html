@@ -1,0 +1,15 @@
+<section class="lucky-number-section">
+  <div class="lucky-number-container">
+    <!-- Lucky Number Display -->
+    <div class="number-display" *ngIf="luckyNumber !== null">
+      <div class="number-value">{{ luckyNumber }}</div>
+      <p class="number-label">Your Lucky Number</p>
+    </div>
+
+    <!-- Lucky Button -->
+    <button class="lucky-button" (click)="generateLuckyNumber()">
+      <i class="bi bi-dice-5-fill"></i>
+      I feel lucky
+    </button>
+  </div>
+</section>

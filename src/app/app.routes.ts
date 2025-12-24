@@ -52,6 +52,12 @@ export const routes: Routes = [
         loadComponent: async () =>
           await import('./features/language/language.component'),
       },
+      {
+        path: '419',
+        title: 'Lucky Number',
+        loadComponent: async () =>
+          await import('./features/lucky-number/lucky-number.component'),
+      },
     ],
   },
 ];

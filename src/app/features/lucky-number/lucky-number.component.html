@@ -7,7 +7,7 @@
     </div>
 
     <!-- Lucky Button -->
-    <button class="lucky-button" (click)="generateLuckyNumber()">
+    <button class="lucky-button" (click)="generateLuckyNumber()" [disabled]="isButtonDisabled">
       <i class="bi bi-dice-5-fill"></i>
       I feel lucky
     </button>
@@ -24,6 +24,18 @@
         <p><strong>Total Ayah:</strong> {{ selectedSurah.totalAyah }}</p>
         <p><strong>Pages:</strong> {{ selectedSurah.pages }}</p>
         <p><strong>Recitation Count:</strong> {{ selectedSurah.recitationCount }}</p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="skip-button" (click)="skipSurah()">
+          <i class="bi bi-skip-forward-fill"></i>
+          Skip
+        </button>
+        <button class="read-button" (click)="readSurah()">
+          <i class="bi bi-book-fill"></i>
+          I'll read it
+        </button>
       </div>
     </div>
   </div>

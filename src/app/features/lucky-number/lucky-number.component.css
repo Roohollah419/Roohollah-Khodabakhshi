@@ -70,9 +70,26 @@
   transform: translateY(-2px) scale(1.02);
 }
 
+.lucky-button:disabled {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+  box-shadow: 0 4px 16px rgba(107, 114, 128, 0.3);
+}
+
+.lucky-button:disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 16px rgba(107, 114, 128, 0.3);
+}
+
 .lucky-button i {
   font-size: 2rem;
   animation: rotate 2s linear infinite;
+}
+
+.lucky-button:disabled i {
+  animation: none;
 }
 
 /* Animations */
@@ -157,6 +174,64 @@
   margin-right: 0.5rem;
 }
 
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.skip-button,
+.read-button {
+  flex: 1;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skip-button {
+  background: rgba(255, 107, 107, 0.2);
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
+}
+
+.skip-button:hover {
+  background: #ff6b6b;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 107, 107, 0.4);
+}
+
+.read-button {
+  background: rgba(81, 207, 102, 0.2);
+  border: 2px solid #51cf66;
+  color: #51cf66;
+}
+
+.read-button:hover {
+  background: #51cf66;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(81, 207, 102, 0.4);
+}
+
+.skip-button i,
+.read-button i {
+  font-size: 1.2rem;
+}
+
 /* Responsive Design */
 @media (max-width: 767px) {
   .number-value {
@@ -191,6 +266,16 @@
   .surah-details p {
     font-size: 0.9rem;
   }
+
+  .action-buttons {
+    gap: 0.75rem;
+  }
+
+  .skip-button,
+  .read-button {
+    padding: 0.85rem 1.5rem;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -221,5 +306,21 @@
 
   .surah-details p {
     font-size: 0.85rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .skip-button,
+  .read-button {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .skip-button i,
+  .read-button i {
+    font-size: 1rem;
   }
 }

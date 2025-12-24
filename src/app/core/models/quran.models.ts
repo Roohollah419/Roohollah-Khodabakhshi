@@ -18,7 +18,7 @@ export interface Surah {
   totalAyah: number;
   juz: JuzVerse[];
   pages: string;
-  recitationCount: number;
+  recitationCount?: number;
 }
 
 export enum RevelationType {

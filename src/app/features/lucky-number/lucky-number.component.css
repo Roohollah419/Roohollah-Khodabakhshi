@@ -174,6 +174,56 @@
   margin-right: 0.5rem;
 }
 
+/* Juz Section */
+.juz-section {
+  margin-top: 0.5rem;
+}
+
+.juz-header {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+
+.juz-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.juz-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: rgba(167, 139, 250, 0.1);
+  border-left: 3px solid #a78bfa;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.juz-item:hover {
+  background: rgba(167, 139, 250, 0.2);
+  transform: translateX(5px);
+}
+
+.juz-index {
+  color: #a78bfa;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.juz-verse {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
 /* Action Buttons */
 .action-buttons {
   display: flex;
@@ -275,6 +325,22 @@
   .read-button {
     padding: 0.85rem 1.5rem;
     font-size: 1rem;
+  }
+
+  .juz-list {
+    padding-left: 0.5rem;
+  }
+
+  .juz-item {
+    padding: 0.6rem;
+  }
+
+  .juz-index {
+    font-size: 0.85rem;
+  }
+
+  .juz-verse {
+    font-size: 0.8rem;
   }
 }
 

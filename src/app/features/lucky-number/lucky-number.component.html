@@ -23,6 +23,17 @@
         <p><strong>Total Ayah:</strong> {{ selectedSurah.totalAyah }}</p>
         <p><strong>Pages:</strong> {{ selectedSurah.pages }}</p>
         <p><strong>Recitation Count:</strong> {{ selectedSurah.recitationCount }}</p>
+
+        <!-- Juz Information -->
+        <div class="juz-section">
+          <p class="juz-header"><strong>Juz:</strong></p>
+          <div class="juz-list">
+            <div class="juz-item" *ngFor="let juzItem of selectedSurah.juz">
+              <span class="juz-index">Juz {{ juzItem.index }}</span>
+              <span class="juz-verse">Verse {{ juzItem.verse.start.replace('verse_', '') }} - {{ juzItem.verse.end.replace('verse_', '') }}</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Action Buttons -->

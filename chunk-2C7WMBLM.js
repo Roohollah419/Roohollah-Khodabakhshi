@@ -1,0 +1,1 @@
+var e={production:!0,emailjs:{serviceId:"YOUR_SERVICE_ID",templateId:"YOUR_TEMPLATE_ID",publicKey:"YOUR_PUBLIC_KEY"},recaptcha:{siteKey:"YOUR_RECAPTCHA_SITE_KEY"},luckyNumberPassword:"1724"};export{e as a};

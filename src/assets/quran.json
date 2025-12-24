@@ -7,7 +7,6 @@
         "surahNameArabicLong": "سُورَةُ ٱلْفَاتِحَةِ",
         "surahNameTranslation": "The Opening",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 7,
         "juz": [
             {
@@ -28,7 +27,6 @@
         "surahNameArabicLong": "سورة البقرة",
         "surahNameTranslation": "The Cow",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 286,
         "juz": [
             {
@@ -63,7 +61,6 @@
         "surahNameArabicLong": "سورة آل عمران",
         "surahNameTranslation": "The Family of Imraan",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 200,
         "juz": [
             {
@@ -91,7 +88,6 @@
         "surahNameArabicLong": "سورة النساء",
         "surahNameTranslation": "The Women",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 176,
         "juz": [
             {
@@ -126,7 +122,6 @@
         "surahNameArabicLong": "سورة المائدة",
         "surahNameTranslation": "The Table",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 120,
         "juz": [
             {
@@ -154,7 +149,6 @@
         "surahNameArabicLong": "سورة الأنعام",
         "surahNameTranslation": "The Cattle",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 165,
         "juz": [
             {
@@ -182,7 +176,6 @@
         "surahNameArabicLong": "سورة الأعراف",
         "surahNameTranslation": "The Heights",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 206,
         "juz": [
             {
@@ -210,7 +203,6 @@
         "surahNameArabicLong": "سورة الأنفال",
         "surahNameTranslation": "The Spoils of War",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 75,
         "juz": [
             {
@@ -238,7 +230,6 @@
         "surahNameArabicLong": "سورة التوبة",
         "surahNameTranslation": "The Repentance",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 129,
         "juz": [
             {
@@ -266,7 +257,6 @@
         "surahNameArabicLong": "سورة يونس",
         "surahNameTranslation": "Jonas",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 109,
         "juz": [
             {
@@ -287,7 +277,6 @@
         "surahNameArabicLong": "سورة هود",
         "surahNameTranslation": "Hud",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 123,
         "juz": [
             {
@@ -315,7 +304,6 @@
         "surahNameArabicLong": "سورة يوسف",
         "surahNameTranslation": "Joseph",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 111,
         "juz": [
             {
@@ -343,7 +331,6 @@
         "surahNameArabicLong": "سورة الرعد",
         "surahNameTranslation": "The Thunder",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 43,
         "juz": [
             {
@@ -364,7 +351,6 @@
         "surahNameArabicLong": "سورة ابراهيم",
         "surahNameTranslation": "Abraham",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 52,
         "juz": [
             {
@@ -385,7 +371,6 @@
         "surahNameArabicLong": "سورة الحجر",
         "surahNameTranslation": "The Rock",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 99,
         "juz": [
             {
@@ -406,7 +391,6 @@
         "surahNameArabicLong": "سورة النحل",
         "surahNameTranslation": "The Bee",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 128,
         "juz": [
             {
@@ -427,7 +411,6 @@
         "surahNameArabicLong": "سورة الإسراء",
         "surahNameTranslation": "The Night Journey",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 111,
         "juz": [
             {
@@ -448,7 +431,6 @@
         "surahNameArabicLong": "سورة الكهف",
         "surahNameTranslation": "The Cave",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 110,
         "juz": [
             {
@@ -476,7 +458,6 @@
         "surahNameArabicLong": "سورة مريم",
         "surahNameTranslation": "Mary",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 98,
         "juz": [
             {
@@ -497,7 +478,6 @@
         "surahNameArabicLong": "سورة طه",
         "surahNameTranslation": "Taa-Haa",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 135,
         "juz": [
             {
@@ -518,7 +498,6 @@
         "surahNameArabicLong": "سورة الأنبياء",
         "surahNameTranslation": "The Prophets",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 112,
         "juz": [
             {
@@ -539,7 +518,6 @@
         "surahNameArabicLong": "سورة الحج",
         "surahNameTranslation": "The Pilgrimage",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 78,
         "juz": [
             {
@@ -560,7 +538,6 @@
         "surahNameArabicLong": "سورة المؤمنون",
         "surahNameTranslation": "The Believers",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 118,
         "juz": [
             {
@@ -581,7 +558,6 @@
         "surahNameArabicLong": "سورة النور",
         "surahNameTranslation": "The Light",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 64,
         "juz": [
             {
@@ -602,7 +578,6 @@
         "surahNameArabicLong": "سورة الفرقان",
         "surahNameTranslation": "The Criterion",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 77,
         "juz": [
             {
@@ -630,7 +605,6 @@
         "surahNameArabicLong": "سورة الشعراء",
         "surahNameTranslation": "The Poets",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 227,
         "juz": [
             {
@@ -651,7 +625,6 @@
         "surahNameArabicLong": "سورة النمل",
         "surahNameTranslation": "The Ant",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 93,
         "juz": [
             {
@@ -679,7 +652,6 @@
         "surahNameArabicLong": "سورة القصص",
         "surahNameTranslation": "The Stories",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 88,
         "juz": [
             {
@@ -700,7 +672,6 @@
         "surahNameArabicLong": "سورة العنكبوت",
         "surahNameTranslation": "The Spider",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 69,
         "juz": [
             {
@@ -728,7 +699,6 @@
         "surahNameArabicLong": "سورة الروم",
         "surahNameTranslation": "The Romans",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 60,
         "juz": [
             {
@@ -749,7 +719,6 @@
         "surahNameArabicLong": "سورة لقمان",
         "surahNameTranslation": "Luqman",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 34,
         "juz": [
             {
@@ -770,7 +739,6 @@
         "surahNameArabicLong": "سورة السجدة",
         "surahNameTranslation": "The Prostration",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 30,
         "juz": [
             {
@@ -791,7 +759,6 @@
         "surahNameArabicLong": "سورة الأحزاب",
         "surahNameTranslation": "The Clans",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 73,
         "juz": [
             {
@@ -819,7 +786,6 @@
         "surahNameArabicLong": "سورة سَبَأ",
         "surahNameTranslation": "Sheba",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 54,
         "juz": [
             {
@@ -840,7 +806,6 @@
         "surahNameArabicLong": "سورة فاطر",
         "surahNameTranslation": "The Originator",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 45,
         "juz": [
             {
@@ -861,7 +826,6 @@
         "surahNameArabicLong": "سورة يس",
         "surahNameTranslation": "Yaseen",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 83,
         "juz": [
             {
@@ -889,7 +853,6 @@
         "surahNameArabicLong": "سورة الصافات",
         "surahNameTranslation": "Those drawn up in Ranks",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 182,
         "juz": [
             {
@@ -910,7 +873,6 @@
         "surahNameArabicLong": "سورة ص",
         "surahNameTranslation": "The letter Saad",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 88,
         "juz": [
             {
@@ -931,7 +893,6 @@
         "surahNameArabicLong": "سورة الزمر",
         "surahNameTranslation": "The Groups",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 75,
         "juz": [
             {
@@ -959,7 +920,6 @@
         "surahNameArabicLong": "سورة غافر",
         "surahNameTranslation": "The Forgiver",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 85,
         "juz": [
             {
@@ -980,7 +940,6 @@
         "surahNameArabicLong": "سورة فصلت",
         "surahNameTranslation": "Explained in detail",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 54,
         "juz": [
             {
@@ -1008,7 +967,6 @@
         "surahNameArabicLong": "سورة الشورى",
         "surahNameTranslation": "Consultation",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 53,
         "juz": [
             {
@@ -1029,7 +987,6 @@
         "surahNameArabicLong": "سورة الزخرف",
         "surahNameTranslation": "Ornaments of gold",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 89,
         "juz": [
             {
@@ -1050,7 +1007,6 @@
         "surahNameArabicLong": "سورة الدخان",
         "surahNameTranslation": "The Smoke",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 59,
         "juz": [
             {
@@ -1071,7 +1027,6 @@
         "surahNameArabicLong": "سورة الجاثية",
         "surahNameTranslation": "Crouching",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 37,
         "juz": [
             {
@@ -1092,7 +1047,6 @@
         "surahNameArabicLong": "سورة الأحقاف",
         "surahNameTranslation": "The Dunes",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 35,
         "juz": [
             {
@@ -1113,7 +1067,6 @@
         "surahNameArabicLong": "سورة محمد",
         "surahNameTranslation": "Muhammad",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 38,
         "juz": [
             {
@@ -1134,7 +1087,6 @@
         "surahNameArabicLong": "سورة الفتح",
         "surahNameTranslation": "The Victory",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 29,
         "juz": [
             {
@@ -1155,7 +1107,6 @@
         "surahNameArabicLong": "سورة الحجرات",
         "surahNameTranslation": "The Inner Apartments",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 18,
         "juz": [
             {
@@ -1176,7 +1127,6 @@
         "surahNameArabicLong": "سورة ق",
         "surahNameTranslation": "The letter Qaaf",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 45,
         "juz": [
             {
@@ -1197,7 +1147,6 @@
         "surahNameArabicLong": "سورة الذاريات",
         "surahNameTranslation": "The Winnowing Winds",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 60,
         "juz": [
             {
@@ -1225,7 +1174,6 @@
         "surahNameArabicLong": "سورة الطور",
         "surahNameTranslation": "The Mount",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 49,
         "juz": [
             {
@@ -1246,7 +1194,6 @@
         "surahNameArabicLong": "سورة النجم",
         "surahNameTranslation": "The Star",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 62,
         "juz": [
             {
@@ -1267,7 +1214,6 @@
         "surahNameArabicLong": "سورة القمر",
         "surahNameTranslation": "The Moon",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 55,
         "juz": [
             {
@@ -1288,7 +1234,6 @@
         "surahNameArabicLong": "سورة الرحمن",
         "surahNameTranslation": "The Beneficent",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 78,
         "juz": [
             {
@@ -1309,7 +1254,6 @@
         "surahNameArabicLong": "سورة الواقعة",
         "surahNameTranslation": "The Inevitable",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 96,
         "juz": [
             {
@@ -1330,7 +1274,6 @@
         "surahNameArabicLong": "سورة الحديد",
         "surahNameTranslation": "The Iron",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 29,
         "juz": [
             {
@@ -1351,7 +1294,6 @@
         "surahNameArabicLong": "سورة المجادلة",
         "surahNameTranslation": "The Pleading Woman",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 22,
         "juz": [
             {
@@ -1372,7 +1314,6 @@
         "surahNameArabicLong": "سورة الحشر",
         "surahNameTranslation": "The Exile",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 24,
         "juz": [
             {
@@ -1393,7 +1334,6 @@
         "surahNameArabicLong": "سورة الممتحنة",
         "surahNameTranslation": "She that is to be examined",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 13,
         "juz": [
             {
@@ -1414,7 +1354,6 @@
         "surahNameArabicLong": "سورة الصف",
         "surahNameTranslation": "The Ranks",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 14,
         "juz": [
             {
@@ -1435,7 +1374,6 @@
         "surahNameArabicLong": "سورة الجمعة",
         "surahNameTranslation": "Friday",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 11,
         "juz": [
             {
@@ -1456,7 +1394,6 @@
         "surahNameArabicLong": "سورة المنافقون",
         "surahNameTranslation": "The Hypocrites",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 11,
         "juz": [
             {
@@ -1477,7 +1414,6 @@
         "surahNameArabicLong": "سورة التغابن",
         "surahNameTranslation": "Mutual Disillusion",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 18,
         "juz": [
             {
@@ -1498,7 +1434,6 @@
         "surahNameArabicLong": "سورة الطلاق",
         "surahNameTranslation": "Divorce",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 12,
         "juz": [
             {
@@ -1519,7 +1454,6 @@
         "surahNameArabicLong": "سورة التحريم",
         "surahNameTranslation": "The Prohibition",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 12,
         "juz": [
             {
@@ -1540,7 +1474,6 @@
         "surahNameArabicLong": "سورة الملك",
         "surahNameTranslation": "The Sovereignty",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 30,
         "juz": [
             {
@@ -1561,7 +1494,6 @@
         "surahNameArabicLong": "سورة القلم",
         "surahNameTranslation": "The Pen",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 52,
         "juz": [
             {
@@ -1582,7 +1514,6 @@
         "surahNameArabicLong": "سورة الحاقة",
         "surahNameTranslation": "The Reality",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 52,
         "juz": [
             {
@@ -1603,7 +1534,6 @@
         "surahNameArabicLong": "سورة المعارج",
         "surahNameTranslation": "The Ascending Stairways",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 44,
         "juz": [
             {
@@ -1624,7 +1554,6 @@
         "surahNameArabicLong": "سورة نوح",
         "surahNameTranslation": "Noah",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 28,
         "juz": [
             {
@@ -1645,7 +1574,6 @@
         "surahNameArabicLong": "سورة الجن",
         "surahNameTranslation": "The Jinn",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 28,
         "juz": [
             {
@@ -1666,7 +1594,6 @@
         "surahNameArabicLong": "سورة المزمل",
         "surahNameTranslation": "The Enshrouded One",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 20,
         "juz": [
             {
@@ -1687,7 +1614,6 @@
         "surahNameArabicLong": "سورة المدثر",
         "surahNameTranslation": "The Cloaked One",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 56,
         "juz": [
             {
@@ -1708,7 +1634,6 @@
         "surahNameArabicLong": "سورة القيامة",
         "surahNameTranslation": "The Resurrection",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 40,
         "juz": [
             {
@@ -1729,7 +1654,6 @@
         "surahNameArabicLong": "سورة الانسان",
         "surahNameTranslation": "Man",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 31,
         "juz": [
             {
@@ -1750,7 +1674,6 @@
         "surahNameArabicLong": "سورة المرسلات",
         "surahNameTranslation": "The Emissaries",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 50,
         "juz": [
             {
@@ -1771,7 +1694,6 @@
         "surahNameArabicLong": "سورة النبأ",
         "surahNameTranslation": "The Announcement",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 40,
         "juz": [
             {
@@ -1792,7 +1714,6 @@
         "surahNameArabicLong": "سورة النازعات",
         "surahNameTranslation": "Those who drag forth",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 46,
         "juz": [
             {
@@ -1813,7 +1734,6 @@
         "surahNameArabicLong": "سورة عبس",
         "surahNameTranslation": "He frowned",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 42,
         "juz": [
             {
@@ -1834,7 +1754,6 @@
         "surahNameArabicLong": "سورة التكوير",
         "surahNameTranslation": "The Overthrowing",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 29,
         "juz": [
             {
@@ -1855,7 +1774,6 @@
         "surahNameArabicLong": "سورة الإنفطار",
         "surahNameTranslation": "The Cleaving",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 19,
         "juz": [
             {
@@ -1876,7 +1794,6 @@
         "surahNameArabicLong": "سورة المطففين",
         "surahNameTranslation": "Defrauding",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 36,
         "juz": [
             {
@@ -1897,7 +1814,6 @@
         "surahNameArabicLong": "سورة الإنشقاق",
         "surahNameTranslation": "The Splitting Open",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 25,
         "juz": [
             {
@@ -1918,7 +1834,6 @@
         "surahNameArabicLong": "سورة البروج",
         "surahNameTranslation": "The Constellations",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 22,
         "juz": [
             {
@@ -1939,7 +1854,6 @@
         "surahNameArabicLong": "سورة الطارق",
         "surahNameTranslation": "The Morning Star",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 17,
         "juz": [
             {
@@ -1960,7 +1874,6 @@
         "surahNameArabicLong": "سورة الأعلى",
         "surahNameTranslation": "The Most High",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 19,
         "juz": [
             {
@@ -1981,7 +1894,6 @@
         "surahNameArabicLong": "سورة الغاشية",
         "surahNameTranslation": "The Overwhelming",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 26,
         "juz": [
             {
@@ -2002,7 +1914,6 @@
         "surahNameArabicLong": "سورة الفجر",
         "surahNameTranslation": "The Dawn",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 30,
         "juz": [
             {
@@ -2023,7 +1934,6 @@
         "surahNameArabicLong": "سورة البلد",
         "surahNameTranslation": "The City",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 20,
         "juz": [
             {
@@ -2044,7 +1954,6 @@
         "surahNameArabicLong": "سورة الشمس",
         "surahNameTranslation": "The Sun",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 15,
         "juz": [
             {
@@ -2065,7 +1974,6 @@
         "surahNameArabicLong": "سورة الليل",
         "surahNameTranslation": "The Night",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 21,
         "juz": [
             {
@@ -2086,7 +1994,6 @@
         "surahNameArabicLong": "سورة الضحى",
         "surahNameTranslation": "The Morning Hours",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 11,
         "juz": [
             {
@@ -2107,7 +2014,6 @@
         "surahNameArabicLong": "سورة الشرح",
         "surahNameTranslation": "The Consolation",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 8,
         "juz": [
             {
@@ -2128,7 +2034,6 @@
         "surahNameArabicLong": "سورة التين",
         "surahNameTranslation": "The Fig",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 8,
         "juz": [
             {
@@ -2149,7 +2054,6 @@
         "surahNameArabicLong": "سورة العلق",
         "surahNameTranslation": "The Clot",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 19,
         "juz": [
             {
@@ -2170,7 +2074,6 @@
         "surahNameArabicLong": "سورة القدر",
         "surahNameTranslation": "The Power, Fate",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 5,
         "juz": [
             {
@@ -2191,7 +2094,6 @@
         "surahNameArabicLong": "سورة البينة",
         "surahNameTranslation": "The Evidence",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 8,
         "juz": [
             {
@@ -2212,7 +2114,6 @@
         "surahNameArabicLong": "سورة الزلزلة",
         "surahNameTranslation": "The Earthquake",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 8,
         "juz": [
             {
@@ -2233,7 +2134,6 @@
         "surahNameArabicLong": "سورة العاديات",
         "surahNameTranslation": "The Chargers",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 11,
         "juz": [
             {
@@ -2254,7 +2154,6 @@
         "surahNameArabicLong": "سورة القارعة",
         "surahNameTranslation": "The Calamity",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 11,
         "juz": [
             {
@@ -2275,7 +2174,6 @@
         "surahNameArabicLong": "سورة التكاثر",
         "surahNameTranslation": "Competition",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 8,
         "juz": [
             {
@@ -2296,7 +2194,6 @@
         "surahNameArabicLong": "سورة العصر",
         "surahNameTranslation": "The Declining Day, Epoch",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 3,
         "juz": [
             {
@@ -2317,7 +2214,6 @@
         "surahNameArabicLong": "سورة الهمزة",
         "surahNameTranslation": "The Traducer",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 9,
         "juz": [
             {
@@ -2338,7 +2234,6 @@
         "surahNameArabicLong": "سورة الفيل",
         "surahNameTranslation": "The Elephant",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 5,
         "juz": [
             {
@@ -2359,7 +2254,6 @@
         "surahNameArabicLong": "سورة قريش",
         "surahNameTranslation": "Quraysh",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 4,
         "juz": [
             {
@@ -2380,7 +2274,6 @@
         "surahNameArabicLong": "سورة الماعون",
         "surahNameTranslation": "Almsgiving",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 7,
         "juz": [
             {
@@ -2401,7 +2294,6 @@
         "surahNameArabicLong": "سورة الكوثر",
         "surahNameTranslation": "Abundance",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 3,
         "juz": [
             {
@@ -2422,7 +2314,6 @@
         "surahNameArabicLong": "سورة الكافرون",
         "surahNameTranslation": "The Disbelievers",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 6,
         "juz": [
             {
@@ -2443,7 +2334,6 @@
         "surahNameArabicLong": "سورة النصر",
         "surahNameTranslation": "Divine Support",
         "revelationPlace": "Madina",
-        "type": "Madaniyah",
         "totalAyah": 3,
         "juz": [
             {
@@ -2464,7 +2354,6 @@
         "surahNameArabicLong": "سورة المسد",
         "surahNameTranslation": "The Palm Fibre",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 5,
         "juz": [
             {
@@ -2485,7 +2374,6 @@
         "surahNameArabicLong": "سورة الإخلاص",
         "surahNameTranslation": "Sincerity",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 4,
         "juz": [
             {
@@ -2506,7 +2394,6 @@
         "surahNameArabicLong": "سورة الفلق",
         "surahNameTranslation": "The Dawn",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 5,
         "juz": [
             {
@@ -2527,7 +2414,6 @@
         "surahNameArabicLong": "سورة الناس",
         "surahNameTranslation": "Mankind",
         "revelationPlace": "Mecca",
-        "type": "Makkiyah",
         "totalAyah": 6,
         "juz": [
             {

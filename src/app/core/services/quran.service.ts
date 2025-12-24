@@ -38,15 +38,6 @@ export class QuranService {
   }
 
   /**
-   * Get color for revelation type
-   * @param type Makkiyah or Madaniyah
-   * @returns Color hex code
-   */
-  getRevelationTypeColor(type: string): string {
-    return type === 'Makkiyah' ? '#a78bfa' : '#4dabf7';
-  }
-
-  /**
    * Format Surah index to 3-digit string (e.g., 1 -> "001")
    * @param index Surah index number
    * @returns Formatted index string

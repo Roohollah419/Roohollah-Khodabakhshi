@@ -14,16 +14,10 @@ export interface Surah {
   surahNameArabicLong: string;
   surahNameTranslation: string;
   revelationPlace: string;
-  type: string;
   totalAyah: number;
   juz: JuzVerse[];
   pages: string;
   recitationCount?: number;
-}
-
-export enum RevelationType {
-  MAKKIYAH = 'Makkiyah',
-  MADANIYAH = 'Madaniyah'
 }
 
 export enum RevelationPlace {

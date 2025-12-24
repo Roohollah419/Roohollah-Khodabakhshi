@@ -11,5 +11,20 @@
       <i class="bi bi-dice-5-fill"></i>
       I feel lucky
     </button>
+
+    <!-- Surah Information Display -->
+    <div class="surah-info" *ngIf="selectedSurah">
+      <h2 class="surah-title">{{ selectedSurah.surahNameArabic }}</h2>
+      <h3 class="surah-subtitle">{{ selectedSurah.title }} - {{ selectedSurah.surahNameTranslation }}</h3>
+      <div class="surah-details">
+        <p><strong>Surah Name:</strong> {{ selectedSurah.surahName }}</p>
+        <p><strong>Arabic Long:</strong> {{ selectedSurah.surahNameArabicLong }}</p>
+        <p><strong>Revelation Place:</strong> {{ selectedSurah.revelationPlace }}</p>
+        <p><strong>Type:</strong> {{ selectedSurah.type }}</p>
+        <p><strong>Total Ayah:</strong> {{ selectedSurah.totalAyah }}</p>
+        <p><strong>Pages:</strong> {{ selectedSurah.pages }}</p>
+        <p><strong>Recitation Count:</strong> {{ selectedSurah.recitationCount }}</p>
+      </div>
+    </div>
   </div>
 </section>

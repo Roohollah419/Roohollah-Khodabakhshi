@@ -105,6 +105,58 @@
   }
 }
 
+/* Surah Information Display */
+.surah-info {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  animation: fadeInScale 0.5s ease-out;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.surah-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 0 20px rgba(167, 139, 250, 0.6);
+}
+
+.surah-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin: 0 0 2rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.surah-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.surah-details p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+
+.surah-details strong {
+  color: #a78bfa;
+  margin-right: 0.5rem;
+}
+
 /* Responsive Design */
 @media (max-width: 767px) {
   .number-value {
@@ -123,6 +175,22 @@
   .lucky-button i {
     font-size: 1.5rem;
   }
+
+  .surah-info {
+    padding: 1.5rem;
+  }
+
+  .surah-title {
+    font-size: 2rem;
+  }
+
+  .surah-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .surah-details p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -137,5 +205,21 @@
   .lucky-button {
     padding: 1rem 2rem;
     font-size: 1.1rem;
+  }
+
+  .surah-info {
+    padding: 1rem;
+  }
+
+  .surah-title {
+    font-size: 1.75rem;
+  }
+
+  .surah-subtitle {
+    font-size: 1rem;
+  }
+
+  .surah-details p {
+    font-size: 0.85rem;
   }
 }

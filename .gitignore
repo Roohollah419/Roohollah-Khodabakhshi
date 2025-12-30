@@ -49,3 +49,4 @@ src/environments/environment.*.ts
 .DS_Store
 Thumbs.db
 .claude/*
+CLAUDE.md

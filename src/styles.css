@@ -1,8 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
-html,body{
-    background-color: transparent;
-    color: white;
-    height: 100%;
+
+/* ============================================
+   Telegram Mini App CSS Variables
+   These are set by TelegramService when running in Telegram
+   ============================================ */
+:root {
+  /* Telegram theme fallbacks (used when running in browser) */
+  --tg-theme-bg-color: #1a1a2e;
+  --tg-theme-text-color: #ffffff;
+  --tg-theme-hint-color: #999999;
+  --tg-theme-link-color: #5288c1;
+  --tg-theme-button-color: #5288c1;
+  --tg-theme-button-text-color: #ffffff;
+  --tg-theme-secondary-bg-color: #16213e;
+  --tg-viewport-height: 100vh;
+  --tg-viewport-stable-height: 100vh;
+
+  /* Safe area insets for notched devices */
+  --tg-safe-area-inset-top: env(safe-area-inset-top, 0px);
+  --tg-safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+  --tg-safe-area-inset-left: env(safe-area-inset-left, 0px);
+  --tg-safe-area-inset-right: env(safe-area-inset-right, 0px);
+}
+
+html, body {
+  background-color: transparent;
+  color: white;
+  height: 100%;
+  /* Prevent overscroll/bounce on iOS */
+  overscroll-behavior: none;
+}
+
+/* ============================================
+   Telegram WebApp Specific Styles
+   Applied only when running inside Telegram
+   ============================================ */
+body.telegram-webapp {
+  /* Use Telegram viewport height for proper sizing */
+  min-height: var(--tg-viewport-stable-height);
+  /* Apply safe area padding */
+  padding-top: var(--tg-safe-area-inset-top);
+  padding-bottom: var(--tg-safe-area-inset-bottom);
+  padding-left: var(--tg-safe-area-inset-left);
+  padding-right: var(--tg-safe-area-inset-right);
+  /* Use Telegram theme colors */
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+  /* Prevent pull-to-refresh */
+  overscroll-behavior-y: contain;
+  /* Prevent text selection on mobile */
+  -webkit-user-select: none;
+  user-select: none;
+  /* Prevent tap highlight */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Allow text selection on inputs and textareas */
+body.telegram-webapp input,
+body.telegram-webapp textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Theme-specific overrides */
+body.telegram-webapp.telegram-theme-light {
+  color: var(--tg-theme-text-color);
+}
+
+body.telegram-webapp.telegram-theme-dark {
+  color: var(--tg-theme-text-color);
+}
+
+/* Telegram link styling */
+body.telegram-webapp a {
+  color: var(--tg-theme-link-color);
+}
+
+/* Telegram button styling (optional - use when needed) */
+.tg-button {
+  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tg-button:active {
+  opacity: 0.8;
+}
+
+.tg-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .fade-in {

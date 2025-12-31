@@ -514,7 +514,7 @@
 /* Carousel Stage */
 ::ng-deep .works-carousel .owl-stage-outer {
   padding: 2rem 0;
-  overflow: visible;
+  /* Note: overflow handled globally in styles.css to prevent page scroll */
 }
 
 /* ========================================

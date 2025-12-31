@@ -29,6 +29,8 @@ html, body {
   height: 100%;
   /* Prevent overscroll/bounce on iOS */
   overscroll-behavior: none;
+  /* Prevent horizontal scroll from carousel overflow */
+  overflow-x: hidden;
 }
 
 /* ============================================
@@ -95,6 +97,30 @@ body.telegram-webapp a {
 .tg-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* ============================================
+   Owl Carousel Global Fixes
+   Prevents horizontal page scroll during carousel swipe
+   ============================================ */
+.owl-carousel {
+  /* Restrict touch to horizontal within carousel only */
+  touch-action: pan-y pinch-zoom;
+}
+
+.owl-carousel .owl-stage-outer {
+  /* Contain carousel content within bounds */
+  overflow: hidden;
+}
+
+.owl-carousel .owl-stage {
+  /* Allow card shadows/effects to show but clip at container */
+  display: flex;
+}
+
+/* Allow visual overflow for card hover effects while preventing page scroll */
+.owl-carousel .owl-item {
+  overflow: visible;
 }
 
 .fade-in {

@@ -61,8 +61,12 @@ export class TelegramService {
 
     const telegram = window.Telegram;
 
-    if (!telegram?.WebApp) {
-      console.info('[TelegramService] Running in browser mode (Telegram WebApp not detected)');
+    // Check if Telegram SDK exists AND we're actually inside Telegram
+    // The SDK creates window.Telegram.WebApp even in browsers, but initData will be empty
+    const isActuallyInTelegram = telegram?.WebApp && telegram.WebApp.initData && telegram.WebApp.initData.length > 0;
+
+    if (!isActuallyInTelegram) {
+      console.info('[TelegramService] Running in browser mode (not inside Telegram)');
       this._isInitialized.set(true);
       this._isTelegram.set(false);
       return;

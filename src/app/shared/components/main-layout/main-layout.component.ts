@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CvGeneratorService } from '../../../core/services/cv-generator.service';
+import { TelegramService } from '../../../core/services/telegram.service';
 
 @Component({
   selector: 'app-main-layout',
@@ -9,8 +10,8 @@ import { CvGeneratorService } from '../../../core/services/cv-generator.service'
   styleUrl: './main-layout.component.css'
 })
 export class MainLayoutComponent {
-
-  constructor(private cvGeneratorService: CvGeneratorService) {}
+  private readonly cvGeneratorService = inject(CvGeneratorService);
+  readonly telegramService = inject(TelegramService);
 
   /**
    * Downloads CV as PDF with current date

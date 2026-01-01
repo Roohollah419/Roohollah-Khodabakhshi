@@ -1,0 +1,173 @@
+{
+  "configVersion": 1,
+  "timestamp": 1767239872419,
+  "index": "https://roohollah419.github.io/Roohollah-Khodabakhshi/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-2C7WMBLM.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-2G57ND2I.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-4NP7OKFR.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-57W7PUFA.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-5VMV6EOZ.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-7MMRE2YR.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-BICXIEU6.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-CWTPBX7D.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-EEWCC5HR.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-FMHP4KZK.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-GGWDZNC3.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-H5ILOLBT.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-LEZH4U2B.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-OGBLQL2W.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-PMBBE6WD.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-R6RBYPMP.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-THVYNO4R.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-UFWEBEMD.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-W2C5D5WC.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-XTX763CW.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YKJPNC6H.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YO7XY3MX.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YYR4RZKF.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/favicon.ico",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/index.html",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/main-YLJC4H7U.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/manifest.webmanifest",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/polyfills-FFHMD2TL.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/scripts-JNRFGZAM.js",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/styles-FBGO5QU2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-128x128.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-144x144.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-152x152.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-192x192.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-384x384.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-512x512.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-72x72.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-96x96.png",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/image/myImage.jpg",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/media/video-bg.mp4",
+        "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/quran.json"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "media",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "external-fonts",
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 2592000000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "cdn-resources",
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 50,
+      "maxAge": 604800000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-128x128.png": "cf9e7e77657581616f4be0b57822119b2e835e4b",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-144x144.png": "093db8fe3a7a500eb183b0631a15ff5aaeb8c7e0",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-152x152.png": "68f483b556eff8e1703baa868b5d56d03cbefda6",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-192x192.png": "16c6329b3c519b56a4073a725a38f2fa7e481338",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-384x384.png": "49599201bc270602c591cad3aa39fe9cf838402a",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-512x512.png": "77b3f4bd1d05c981b50b14d6cfdc4ee4bc70e5a7",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-72x72.png": "e2a95194c7c727657694fe3dd12bf6e0d121194a",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/icons/icon-96x96.png": "fd6fc9c7f98b3f89a040810305b59fa6216daf91",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/image/myImage.jpg": "6cff2ff467c04de62728ed101926d10837f40ca8",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/media/video-bg.mp4": "dbc4526eb0d4c513519867ac7842b0f27c411d03",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/assets/quran.json": "f1814be1ffc27f9bf220ddcb28b2caa22e1aa472",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-2C7WMBLM.js": "39fde2c9aff566fb2bb126eb64418de98969bc2f",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-2G57ND2I.js": "9f036422959e674a21f168e4b419423e5bd9a49e",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-4NP7OKFR.js": "da45e19d7009545d5ee6fed9d2180d15009d67cc",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-57W7PUFA.js": "f8fa7a78b03d8e2f49e3fae51d552a3a7be1855b",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-5VMV6EOZ.js": "97f800693214919ff96e84e66816e4a6824043f5",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-7MMRE2YR.js": "26e52f84ccc404499c7dd3fa65d233e9d421a28d",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-BICXIEU6.js": "7099fc9b69d43ddc836e586cae1bb61f2e7bcab3",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-CWTPBX7D.js": "c40057a332d0341d595cc1d005fc2ab4f2573957",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-EEWCC5HR.js": "e36174d0ff701701f4dc35cf736ef2fdc44a518c",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-FMHP4KZK.js": "107b0d5120f5bfe1fb47629def499fd2e76eb03b",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-GGWDZNC3.js": "da02f727e398f0945ca5463fbaa4c1ba8817e49c",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-H5ILOLBT.js": "b8f2c610d60bdd72bf923aac8c03a6a1b0c3333d",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-LEZH4U2B.js": "ea2ff3201769c53f2b0ccc6941fccca82310457f",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-OGBLQL2W.js": "567c058807d8e724a7d50d0c7743432ea32e3ac1",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-PMBBE6WD.js": "287cc2048d6eb7369717accf73ce2e8f6daf6063",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-R6RBYPMP.js": "d3583ad2c81c9f4d7bef662f5071e7fd26ab72bc",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-THVYNO4R.js": "b8cd60e2d33d93b7fcdd218412210f9516137a08",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-UFWEBEMD.js": "9dfe0cf9fc513071eb4d41ae13a64520d32de45e",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-W2C5D5WC.js": "56d4e75311eacb21cf4c799325ca7c4f44a48fe9",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-XTX763CW.js": "5b0a66792da39e86d0a33e98b18fc43090f9c320",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YKJPNC6H.js": "7613e164648ad424e5ca9cdb30f218ff2e3bf5ca",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YO7XY3MX.js": "2a35c77cb20832225d22a269528e33e7e67341bc",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/chunk-YYR4RZKF.js": "99ab353f1377fba09c4f1a80221a49bdef418557",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/favicon.ico": "4d4f234be00d5b1567ed07288ffebd83a4d40d8d",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/index.html": "0e40d11d64ea323a97b60180db18e2f9a248e8c2",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/main-YLJC4H7U.js": "2c2f7eaad5a9d0fc8671d734e9dd005d369a92a5",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/manifest.webmanifest": "1e52ca259a0932e21a4913351f24b1f5e2cc215a",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/scripts-JNRFGZAM.js": "564d1aa75d2e95466ef05c9cf26fd834e8562270",
+    "https://roohollah419.github.io/Roohollah-Khodabakhshi/styles-FBGO5QU2.css": "cdf69551243f1ee81021c68896c0bf4371fba2bd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -24,6 +24,19 @@ export default class ContactComponent {
   submitError = false;
   errorMessage = '';
 
+  // Masked contact info (anti-crawler protection)
+  // Data is stored obfuscated and only decoded on user interaction
+  emailRevealed = false;
+  phoneRevealed = false;
+
+  // Obfuscated data (reversed + base64 to prevent simple scraping)
+  private readonly obfuscatedEmail = 'bW9jLmxpYW1nQDkxNGhhbGxvaG9vcg=='; // base64 of reversed email
+  private readonly obfuscatedPhone = 'MTU2MDc5ODMxOTg5Kw=='; // base64 of reversed phone
+
+  // Masked display values
+  readonly maskedEmail = 'r**********9@g****.com';
+  readonly maskedPhone = '+98 *** *** ****';
+
   // Honeypot field for spam detection (not visible to users)
   honeypot = new FormControl('');
 
@@ -129,5 +142,47 @@ export default class ContactComponent {
   isFieldInvalid(fieldName: string): boolean {
     const field = this.contact.get(fieldName);
     return !!(field && field.invalid && field.touched);
+  }
+
+  // Decode obfuscated string (base64 decode then reverse)
+  private decodeObfuscated(encoded: string): string {
+    const decoded = atob(encoded);
+    return decoded.split('').reverse().join('');
+  }
+
+  // Get email (decoded only when revealed)
+  get displayEmail(): string {
+    if (!this.emailRevealed) return this.maskedEmail;
+    return this.decodeObfuscated(this.obfuscatedEmail);
+  }
+
+  // Get phone (decoded only when revealed)
+  get displayPhone(): string {
+    if (!this.phoneRevealed) return this.maskedPhone;
+    return this.decodeObfuscated(this.obfuscatedPhone);
+  }
+
+  // Get email link (only when revealed)
+  get emailHref(): string | null {
+    if (!this.emailRevealed) return null;
+    return `mailto:${this.decodeObfuscated(this.obfuscatedEmail)}`;
+  }
+
+  // Get phone link (only when revealed)
+  get phoneHref(): string | null {
+    if (!this.phoneRevealed) return null;
+    return `tel:${this.decodeObfuscated(this.obfuscatedPhone)}`;
+  }
+
+  // Reveal email on click
+  revealEmail(event: Event): void {
+    event.preventDefault();
+    this.emailRevealed = true;
+  }
+
+  // Reveal phone on click
+  revealPhone(event: Event): void {
+    event.preventDefault();
+    this.phoneRevealed = true;
   }
 }

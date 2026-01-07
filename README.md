@@ -77,7 +77,7 @@ cp src/environments/environment.development.example.ts src/environments/environm
 2. **Connect your Gmail account**:
    - Go to "Email Services" → "Add New Service"
    - Select Gmail
-   - Connect your Gmail account (roohollah419@gmail.com or your own)
+   - Connect your Gmail account
 
 3. **Create an email template**:
    - Go to "Email Templates" → "Create New Template"
@@ -276,13 +276,6 @@ For more Angular CLI commands, see [Angular CLI Overview](https://angular.io/cli
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-Roohollah Khodabakhshi
-- 📧 Email: roohollah419@gmail.com
-- 🌍 Location: Istanbul, Turkey
-- 📱 Phone: +989138970651
 
 ## Acknowledgments
 

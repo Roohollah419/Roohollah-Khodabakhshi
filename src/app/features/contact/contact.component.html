@@ -24,39 +24,71 @@
           <!-- Contact Items -->
           <div class="contact-items">
             <!-- Location -->
-            <a href="https://www.google.de/maps/place/%C4%B0stanbul,+T%C3%BCrkiye/@41.004852,28.682533,10z/data=!3m1!4b1!4m6!3m5!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589!16zL20vMDk5NDlt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+            <a href="https://www.google.com/maps/place/Isfahan,+Isfahan+Province,+Iran"
                class="contact-item"
                target="_blank"
                rel="noopener noreferrer"
-               aria-label="Visit location: Istanbul, Turkey">
+               aria-label="Visit location: Isfahan, Islamic Republic of IRAN">
               <i class="bi bi-pin-map-fill contact-item-icon" aria-hidden="true"></i>
               <div class="contact-item-content">
                 <span class="contact-item-label">Location</span>
-                <span class="contact-item-value">Istanbul, Turkey</span>
+                <span class="contact-item-value">Isfahan, Islamic Republic of IRAN</span>
               </div>
             </a>
 
-            <!-- Email -->
-            <a href="mailto:roohollah419@gmail.com"
+            <!-- Email (masked until clicked) -->
+            <a *ngIf="emailRevealed; else maskedEmailTemplate"
+               [href]="emailHref"
                class="contact-item"
-               aria-label="Send email to roohollah419@gmail.com">
+               [attr.aria-label]="'Send email to ' + displayEmail">
               <i class="bi bi-envelope-fill contact-item-icon" aria-hidden="true"></i>
               <div class="contact-item-content">
                 <span class="contact-item-label">Email</span>
-                <span class="contact-item-value">roohollah419&#64;gmail.com</span>
+                <span class="contact-item-value">{{ displayEmail }}</span>
               </div>
             </a>
+            <ng-template #maskedEmailTemplate>
+              <button type="button"
+                      class="contact-item contact-item-masked"
+                      (click)="revealEmail($event)"
+                      aria-label="Click to reveal email address">
+                <i class="bi bi-envelope-fill contact-item-icon" aria-hidden="true"></i>
+                <div class="contact-item-content">
+                  <span class="contact-item-label">Email</span>
+                  <span class="contact-item-value masked-value">
+                    {{ maskedEmail }}
+                    <i class="bi bi-eye-fill reveal-icon" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </button>
+            </ng-template>
 
-            <!-- Phone -->
-            <a href="tel:+989138970651"
+            <!-- Phone (masked until clicked) -->
+            <a *ngIf="phoneRevealed; else maskedPhoneTemplate"
+               [href]="phoneHref"
                class="contact-item"
-               aria-label="Call +98 913 897 0651">
+               [attr.aria-label]="'Call ' + displayPhone">
               <i class="bi bi-phone-fill contact-item-icon" aria-hidden="true"></i>
               <div class="contact-item-content">
                 <span class="contact-item-label">Phone</span>
-                <span class="contact-item-value">+98 913 897 0651</span>
+                <span class="contact-item-value">{{ displayPhone }}</span>
               </div>
             </a>
+            <ng-template #maskedPhoneTemplate>
+              <button type="button"
+                      class="contact-item contact-item-masked"
+                      (click)="revealPhone($event)"
+                      aria-label="Click to reveal phone number">
+                <i class="bi bi-phone-fill contact-item-icon" aria-hidden="true"></i>
+                <div class="contact-item-content">
+                  <span class="contact-item-label">Phone</span>
+                  <span class="contact-item-value masked-value">
+                    {{ maskedPhone }}
+                    <i class="bi bi-eye-fill reveal-icon" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </button>
+            </ng-template>
           </div>
         </article>
       </div>

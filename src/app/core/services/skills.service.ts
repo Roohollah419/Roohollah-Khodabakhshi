@@ -14,8 +14,8 @@ export class SkillsService {
    */
   fetchSkillsContent(): SkillsContent {
     return {
-      heading: "WHAT I'M GOOD AT?",
-      subheading: 'Technical skills and proficiency levels across various technologies'
+      heading: 'TECHNICAL EXPERTISE',
+      subheading: 'Senior .NET Developer skills: 10+ years mastering C#, ASP.NET Core, Angular, SQL Server, and Full Stack technologies'
     };
   }
 

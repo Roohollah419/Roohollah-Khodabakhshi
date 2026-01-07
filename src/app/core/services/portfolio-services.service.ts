@@ -15,8 +15,8 @@ export class PortfolioServicesService {
    */
   fetchServicesContent(): ServicesContent {
     return {
-      heading: 'SERVICES I PROVIDE',
-      subheading: 'Comprehensive solutions across the full software development lifecycle'
+      heading: 'PROFESSIONAL DEVELOPMENT SERVICES',
+      subheading: 'Expert .NET Developer and Full Stack Developer services - From backend APIs to frontend applications, delivered by a developer with 10+ years of experience'
     };
   }
 

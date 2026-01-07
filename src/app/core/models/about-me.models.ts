@@ -1,6 +1,6 @@
 export interface StatisticItem {
   icon: string;
-  value: number;
+  value: number | string;
   label: string;
   ariaLabel?: string;
 }

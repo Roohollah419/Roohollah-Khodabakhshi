@@ -1,16 +1,20 @@
-<section class="about-me-section" aria-labelledby="about-me-heading">
+<section class="about-me-section" aria-labelledby="about-me-heading" itemscope itemtype="https://schema.org/Person">
   <div class="row">
     <!-- Left Column: Introduction & Statistics -->
     <div class="col-md-8 col-lg-8 about-me-content">
-      <!-- Introduction -->
+      <!-- Introduction - Main content for SEO -->
       <article class="fade-in">
-        <h2 id="about-me-heading" class="text-center about-me-heading">
+        <h1 id="about-me-heading" class="text-center about-me-heading">
           <i class="bi bi-person-circle header-icon" aria-hidden="true"></i>
-          {{ content.heading }}
-        </h2>
-        <p class="about-me-intro">
+          <span itemprop="jobTitle">{{ content.heading }}</span>
+        </h1>
+        <p class="about-me-intro" itemprop="description">
           {{ content.introduction }}
         </p>
+        <!-- Hidden SEO content for crawlers -->
+        <meta itemprop="name" content="Roohollah Khodabakhshi">
+        <meta itemprop="nationality" content="Iran">
+        <link itemprop="url" href="https://roohollah419.github.io/Roohollah-Khodabakhshi/">
       </article>
 
       <!-- Statistics Carousel -->
@@ -93,7 +97,13 @@
           [src]="content.imageUrl"
           [alt]="content.imageAlt"
           class="rounded profile-image"
-          loading="lazy">
+          loading="lazy"
+          itemprop="image"
+          width="400"
+          height="400">
+        <figcaption class="visually-hidden">
+          Roohollah Khodabakhshi - Senior .NET Developer and Full Stack Developer from Iran
+        </figcaption>
       </figure>
     </aside>
   </div>

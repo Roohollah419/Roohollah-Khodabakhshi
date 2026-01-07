@@ -1,0 +1,11 @@
+# Robots.txt for Roohollah Khodabakhshi Portfolio
+# Senior .NET Developer & Full Stack Developer from Iran
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://roohollah419.github.io/Roohollah-Khodabakhshi/sitemap.xml
+
+# Disallow protected routes
+Disallow: /419
